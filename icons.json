@@ -18,6 +18,12 @@
     "file_type_typescript": {
       "iconPath": "./icons/typescript.svg"
     },
+    "file_type_jsx": {
+      "iconPath": "./icons/jsx.svg"
+    },
+    "file_type_tsx": {
+      "iconPath": "./icons/tsx.svg"
+    },
     "file_type_ignore": {
       "iconPath": "./icons/ignore_file.svg"
     },
@@ -39,6 +45,8 @@
     "js": "file_type_javascript",
     "txt": "file_type_text",
     "json": "file_type_json",
-    "ts": "file_type_typescript"
+    "ts": "file_type_typescript",
+    "jsx": "file_type_jsx",
+    "tsx": "file_type_tsx"
   }
 }
