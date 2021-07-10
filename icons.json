@@ -84,6 +84,9 @@
     "file_type_coffeescript": {
       "iconPath": "./icons/coffeescript.svg"
     },
+    "file_type_scala": {
+      "iconPath": "./icons/scala.svg"
+    },
     "folder_type": {
       "iconPath": "./icons/folder.svg"
     }
@@ -130,6 +133,7 @@
     "less": "file_type_less",
     "html": "file_type_html",
     "coffee": "file_type_coffeescript",
-		"litcoffee": "file_type_coffeescript"
+		"litcoffee": "file_type_coffeescript",
+		"scala": "file_type_scala"
   }
 }
