@@ -117,6 +117,9 @@
     "file_type_eslint": {
       "iconPath": "./icons/eslint.svg"
     },
+    "file_type_editorconfig": {
+      "iconPath": "./icons/editorconfig.svg"
+    },
     "folder_type": {
       "iconPath": "./icons/folder.svg"
     }
@@ -131,6 +134,7 @@
     ".dockerignore": "file_type_ignore",
     ".eslintignore": "file_type_eslint",
     ".eslintrc.js": "file_type_eslint",
+    ".editorconfig": "file_type_editorconfig",
     "makefile": "file_type_makefile",
     "dockerfile": "file_type_dockerfile",
     "docker-compose.yml": "file_type_dockercompose"
