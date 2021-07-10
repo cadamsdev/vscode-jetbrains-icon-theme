@@ -108,6 +108,9 @@
     "file_type_groovy": {
       "iconPath": "./icons/groovy.svg"
     },
+    "file_type_php": {
+      "iconPath": "./icons/php.svg"
+    },
     "folder_type": {
       "iconPath": "./icons/folder.svg"
     }
@@ -171,6 +174,7 @@
     "groovy": "file_type_groovy",
     "gvy": "file_type_groovy",
     "gy": "file_type_groovy",
-    "gsh": "file_type_groovy"
+    "gsh": "file_type_groovy",
+    "php": "file_type_php"
   }
 }
