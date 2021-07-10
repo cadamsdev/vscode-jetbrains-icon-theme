@@ -54,6 +54,9 @@
     "file_type_ignore": {
       "iconPath": "./icons/ignore_file.svg"
     },
+    "file_type_image": {
+      "iconPath": "./icons/image.svg"
+    },
     "folder_type": {
       "iconPath": "./icons/folder.svg"
     }
@@ -85,6 +88,10 @@
     "dart": "file_type_dart",
     "kt": "file_type_kotlin",
     "sh": "file_type_shell",
-    "bash": "file_type_shell"
+    "bash": "file_type_shell",
+    "png": "file_type_image",
+    "jpg": "file_type_image",
+    "gif": "file_type_image",
+    "ico": "file_type_image"
   }
 }
