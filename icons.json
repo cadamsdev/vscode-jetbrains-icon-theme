@@ -33,6 +33,9 @@
     "file_type_sql": {
       "iconPath": "./icons/sql.svg"
     },
+    "file_type_java": {
+      "iconPath": "./icons/java.svg"
+    },
     "file_type_ignore": {
       "iconPath": "./icons/ignore_file.svg"
     },
@@ -60,6 +63,7 @@
     "yml": "file_type_yaml",
     "yaml": "file_type_yaml",
     "md": "file_type_markdown",
-    "sql": "file_type_sql"
+    "sql": "file_type_sql",
+    "java": "file_type_java"
   }
 }
