@@ -15,6 +15,9 @@
     "file_type_json": {
       "iconPath": "./icons/json.svg"
     },
+    "file_type_ignore": {
+      "iconPath": "./icons/ignore_file.svg"
+    },
     "folder_type": {
       "iconPath": "./icons/folder.svg"
     }
@@ -26,7 +29,7 @@
 
   },
   "fileNames": {
-
+    ".gitignore": "file_type_ignore"
   },
   "fileExtensions": {
     "css": "file_type_css",
