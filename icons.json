@@ -87,6 +87,9 @@
     "file_type_scala": {
       "iconPath": "./icons/scala.svg"
     },
+    "file_type_vue": {
+      "iconPath": "./icons/vue.svg"
+    },
     "folder_type": {
       "iconPath": "./icons/folder.svg"
     }
@@ -134,6 +137,7 @@
     "html": "file_type_html",
     "coffee": "file_type_coffeescript",
 		"litcoffee": "file_type_coffeescript",
-		"scala": "file_type_scala"
+		"scala": "file_type_scala",
+    "vue": "file_type_vue"
   }
 }
