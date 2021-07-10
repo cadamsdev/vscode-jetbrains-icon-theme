@@ -102,6 +102,9 @@
     "file_type_dockercompose": {
       "iconPath": "./icons/dockercompose.svg"
     },
+    "file_type_gradle": {
+      "iconPath": "./icons/gradle.svg"
+    },
     "folder_type": {
       "iconPath": "./icons/folder.svg"
     }
@@ -160,6 +163,7 @@
     "7z": "file_type_archive",
     "tar": "file_type_archive",
     "make": "file_type_makefile",
-    "mk": "file_type_makefile"
+    "mk": "file_type_makefile",
+    "gradle": "file_type_gradle"
   }
 }
