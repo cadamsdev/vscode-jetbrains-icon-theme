@@ -60,6 +60,15 @@
     "file_type_xml": {
       "iconPath": "./icons/xml.svg"
     },
+    "file_type_c": {
+      "iconPath": "./icons/c.svg"
+    },
+    "file_type_cpp": {
+      "iconPath": "./icons/cpp.svg"
+    },
+    "file_type_header": {
+      "iconPath": "./icons/header.svg"
+    },
     "folder_type": {
       "iconPath": "./icons/folder.svg"
     }
@@ -95,6 +104,10 @@
     "jpg": "file_type_image",
     "gif": "file_type_image",
     "ico": "file_type_image",
-    "xml": "file_type_xml"
+    "xml": "file_type_xml",
+    "c": "file_type_c",
+    "cpp": "file_type_cpp",
+    "h": "file_type_header",
+    "hpp": "file_type_header"
   }
 }
