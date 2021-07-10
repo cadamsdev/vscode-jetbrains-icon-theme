@@ -91,7 +91,8 @@
 
   },
   "fileNames": {
-    ".gitignore": "file_type_ignore"
+    ".gitignore": "file_type_ignore",
+    ".dockerignore": "file_type_ignore"
   },
   "fileExtensions": {
     "css": "file_type_css",
