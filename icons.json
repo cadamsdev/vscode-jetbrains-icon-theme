@@ -72,6 +72,9 @@
     "file_type_header": {
       "iconPath": "./icons/header.svg"
     },
+    "file_type_sass": {
+      "iconPath": "./icons/sass.svg"
+    },
     "folder_type": {
       "iconPath": "./icons/folder.svg"
     }
@@ -112,6 +115,7 @@
     "cpp": "file_type_cpp",
     "h": "file_type_header",
     "hpp": "file_type_header",
-    "rb": "file_type_ruby"
+    "rb": "file_type_ruby",
+    "sass": "file_type_sass"
   }
 }
