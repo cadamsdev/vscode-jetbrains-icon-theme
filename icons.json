@@ -24,6 +24,9 @@
     "file_type_tsx": {
       "iconPath": "./icons/tsx.svg"
     },
+    "file_type_yaml": {
+      "iconPath": "./icons/yaml.svg"
+    },
     "file_type_ignore": {
       "iconPath": "./icons/ignore_file.svg"
     },
@@ -47,6 +50,8 @@
     "json": "file_type_json",
     "ts": "file_type_typescript",
     "jsx": "file_type_jsx",
-    "tsx": "file_type_tsx"
+    "tsx": "file_type_tsx",
+    "yml": "file_type_yaml",
+    "yaml": "file_type_yaml"
   }
 }
