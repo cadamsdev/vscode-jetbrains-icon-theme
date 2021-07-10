@@ -66,6 +66,9 @@
     "file_type_cpp": {
       "iconPath": "./icons/cpp.svg"
     },
+    "file_type_ruby": {
+      "iconPath": "./icons/ruby.svg"
+    },
     "file_type_header": {
       "iconPath": "./icons/header.svg"
     },
@@ -108,6 +111,7 @@
     "c": "file_type_c",
     "cpp": "file_type_cpp",
     "h": "file_type_header",
-    "hpp": "file_type_header"
+    "hpp": "file_type_header",
+    "rb": "file_type_ruby"
   }
 }
