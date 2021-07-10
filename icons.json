@@ -42,6 +42,9 @@
     "file_type_python": {
       "iconPath": "./icons/python.svg"
     },
+    "file_type_dart": {
+      "iconPath": "./icons/dart.svg"
+    },
     "file_type_ignore": {
       "iconPath": "./icons/ignore_file.svg"
     },
@@ -72,6 +75,7 @@
     "sql": "file_type_sql",
     "java": "file_type_java",
     "class": "file_type_java_class",
-    "py": "file_type_python"
+    "py": "file_type_python",
+    "dart": "file_type_dart"
   }
 }
