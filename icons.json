@@ -57,10 +57,12 @@
     "file_type_image": {
       "iconPath": "./icons/image.svg"
     },
+    "file_type_xml": {
+      "iconPath": "./icons/xml.svg"
+    },
     "folder_type": {
       "iconPath": "./icons/folder.svg"
     }
-
   },
   "file": "file_type",
   "folder": "folder_type",
@@ -92,6 +94,7 @@
     "png": "file_type_image",
     "jpg": "file_type_image",
     "gif": "file_type_image",
-    "ico": "file_type_image"
+    "ico": "file_type_image",
+    "xml": "file_type_xml"
   }
 }
