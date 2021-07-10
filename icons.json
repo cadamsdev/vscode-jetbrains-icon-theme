@@ -93,6 +93,9 @@
     "file_type_archive": {
       "iconPath": "./icons/archive.svg"
     },
+    "file_type_makefile": {
+      "iconPath": "./icons/makefile.svg"
+    },
     "folder_type": {
       "iconPath": "./icons/folder.svg"
     }
@@ -104,7 +107,8 @@
   },
   "fileNames": {
     ".gitignore": "file_type_ignore",
-    ".dockerignore": "file_type_ignore"
+    ".dockerignore": "file_type_ignore",
+    "makefile": "file_type_makefile"
   },
   "fileExtensions": {
     "css": "file_type_css",
@@ -146,6 +150,8 @@
     "zip": "file_type_archive",
     "rar": "file_type_archive",
     "7z": "file_type_archive",
-    "tar": "file_type_archive"
+    "tar": "file_type_archive",
+    "make": "file_type_makefile",
+    "mk": "file_type_makefile"
   }
 }
