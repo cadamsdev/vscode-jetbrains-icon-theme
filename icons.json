@@ -3,6 +3,9 @@
     "file_type": {
       "iconPath": "./icons/file.svg"
     },
+    "file_type_css": {
+      "iconPath": "./icons/css.svg"
+    },
     "folder_type": {
       "iconPath": "./icons/folder.svg"
     }
@@ -17,6 +20,6 @@
 
   },
   "fileExtensions": {
-
+    "css": "file_type_css"
   }
 }
