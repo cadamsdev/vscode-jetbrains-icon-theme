@@ -111,6 +111,9 @@
     "file_type_php": {
       "iconPath": "./icons/php.svg"
     },
+    "file_type_go": {
+      "iconPath": "./icons/go.svg"
+    },
     "folder_type": {
       "iconPath": "./icons/folder.svg"
     }
@@ -175,6 +178,7 @@
     "gvy": "file_type_groovy",
     "gy": "file_type_groovy",
     "gsh": "file_type_groovy",
-    "php": "file_type_php"
+    "php": "file_type_php",
+    "go": "file_type_go"
   }
 }
