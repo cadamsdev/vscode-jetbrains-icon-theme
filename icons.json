@@ -45,6 +45,9 @@
     "file_type_dart": {
       "iconPath": "./icons/dart.svg"
     },
+    "file_type_kotlin": {
+      "iconPath": "./icons/kotlin.svg"
+    },
     "file_type_ignore": {
       "iconPath": "./icons/ignore_file.svg"
     },
@@ -76,6 +79,7 @@
     "java": "file_type_java",
     "class": "file_type_java_class",
     "py": "file_type_python",
-    "dart": "file_type_dart"
+    "dart": "file_type_dart",
+    "kt": "file_type_kotlin"
   }
 }
