@@ -1,0 +1,22 @@
+{
+  "iconDefinitions": {
+    "file_type": {
+      "iconPath": "./icons/file.svg"
+    },
+    "folder_type": {
+      "iconPath": "./icons/folder.svg"
+    }
+
+  },
+  "file": "file_type",
+  "folder": "folder_type",
+  "folderNames": {
+
+  },
+  "fileNames": {
+
+  },
+  "fileExtensions": {
+
+  }
+}

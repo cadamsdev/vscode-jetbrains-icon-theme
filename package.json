@@ -1,0 +1,38 @@
+{
+  "name": "vscode-jetbrains-icon-theme",
+  "displayName": "JetBrains Icon Theme",
+  "description": "JetBrains Icon Theme for VSCode",
+  "publisher": "chadalen",
+  "author": "Chad Adams",
+  "version": "1.0.0",
+  "icon": "logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marlongerson/jetbrains-icons"
+  },
+  "engines": {
+    "vscode": "^1.52.0"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
+  "keywords": [
+    "jetbrains",
+    "icon",
+    "theme"
+  ],
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "vscode-jetbrains-icon-theme",
+        "label": "JetBrains Icon Theme",
+        "path": "icons.json"
+      }
+    ]
+  }
+}
