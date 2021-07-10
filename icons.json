@@ -27,6 +27,9 @@
     "file_type_yaml": {
       "iconPath": "./icons/yaml.svg"
     },
+    "file_type_markdown": {
+      "iconPath": "./icons/markdown.svg"
+    },
     "file_type_ignore": {
       "iconPath": "./icons/ignore_file.svg"
     },
@@ -52,6 +55,7 @@
     "jsx": "file_type_jsx",
     "tsx": "file_type_tsx",
     "yml": "file_type_yaml",
-    "yaml": "file_type_yaml"
+    "yaml": "file_type_yaml",
+    "md": "file_type_markdown"
   }
 }
