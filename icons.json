@@ -99,6 +99,9 @@
     "file_type_dockerfile": {
       "iconPath": "./icons/file_dockerfile.svg"
     },
+    "file_type_dockercompose": {
+      "iconPath": "./icons/dockercompose.svg"
+    },
     "folder_type": {
       "iconPath": "./icons/folder.svg"
     }
@@ -112,7 +115,8 @@
     ".gitignore": "file_type_ignore",
     ".dockerignore": "file_type_ignore",
     "makefile": "file_type_makefile",
-    "dockerfile": "file_type_dockerfile"
+    "dockerfile": "file_type_dockerfile",
+    "docker-compose.yml": "file_type_dockercompose"
   },
   "fileExtensions": {
     "css": "file_type_css",
