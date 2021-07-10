@@ -96,6 +96,9 @@
     "file_type_makefile": {
       "iconPath": "./icons/makefile.svg"
     },
+    "file_type_dockerfile": {
+      "iconPath": "./icons/file_dockerfile.svg"
+    },
     "folder_type": {
       "iconPath": "./icons/folder.svg"
     }
@@ -108,7 +111,8 @@
   "fileNames": {
     ".gitignore": "file_type_ignore",
     ".dockerignore": "file_type_ignore",
-    "makefile": "file_type_makefile"
+    "makefile": "file_type_makefile",
+    "dockerfile": "file_type_dockerfile"
   },
   "fileExtensions": {
     "css": "file_type_css",
