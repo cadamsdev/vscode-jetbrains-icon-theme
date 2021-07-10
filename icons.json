@@ -39,6 +39,9 @@
     "file_type_java_class": {
       "iconPath": "./icons/java_class.svg"
     },
+    "file_type_python": {
+      "iconPath": "./icons/python.svg"
+    },
     "file_type_ignore": {
       "iconPath": "./icons/ignore_file.svg"
     },
@@ -68,6 +71,7 @@
     "md": "file_type_markdown",
     "sql": "file_type_sql",
     "java": "file_type_java",
-    "class": "file_type_java_class"
+    "class": "file_type_java_class",
+    "py": "file_type_python"
   }
 }
