@@ -81,6 +81,9 @@
     "file_type_html": {
       "iconPath": "./icons/html.svg"
     },
+    "file_type_coffeescript": {
+      "iconPath": "./icons/coffeescript.svg"
+    },
     "folder_type": {
       "iconPath": "./icons/folder.svg"
     }
@@ -125,6 +128,8 @@
     "rb": "file_type_ruby",
     "sass": "file_type_sass",
     "less": "file_type_less",
-    "html": "file_type_html"
+    "html": "file_type_html",
+    "coffee": "file_type_coffeescript",
+		"litcoffee": "file_type_coffeescript"
   }
 }
