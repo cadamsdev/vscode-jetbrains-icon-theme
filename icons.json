@@ -12,6 +12,9 @@
     "file_type_text": {
       "iconPath": "./icons/text.svg"
     },
+    "file_type_json": {
+      "iconPath": "./icons/json.svg"
+    },
     "folder_type": {
       "iconPath": "./icons/folder.svg"
     }
@@ -28,6 +31,7 @@
   "fileExtensions": {
     "css": "file_type_css",
     "js": "file_type_javascript",
-    "txt": "file_type_text"
+    "txt": "file_type_text",
+    "json": "file_type_json"
   }
 }
