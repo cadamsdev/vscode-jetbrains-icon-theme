@@ -90,6 +90,9 @@
     "file_type_vue": {
       "iconPath": "./icons/vue.svg"
     },
+    "file_type_archive": {
+      "iconPath": "./icons/archive.svg"
+    },
     "folder_type": {
       "iconPath": "./icons/folder.svg"
     }
@@ -138,6 +141,11 @@
     "coffee": "file_type_coffeescript",
 		"litcoffee": "file_type_coffeescript",
 		"scala": "file_type_scala",
-    "vue": "file_type_vue"
+    "vue": "file_type_vue",
+    "gz": "file_type_archive",
+    "zip": "file_type_archive",
+    "rar": "file_type_archive",
+    "7z": "file_type_archive",
+    "tar": "file_type_archive"
   }
 }
