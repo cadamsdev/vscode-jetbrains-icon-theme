@@ -105,6 +105,9 @@
     "file_type_gradle": {
       "iconPath": "./icons/gradle.svg"
     },
+    "file_type_groovy": {
+      "iconPath": "./icons/groovy.svg"
+    },
     "folder_type": {
       "iconPath": "./icons/folder.svg"
     }
@@ -164,6 +167,10 @@
     "tar": "file_type_archive",
     "make": "file_type_makefile",
     "mk": "file_type_makefile",
-    "gradle": "file_type_gradle"
+    "gradle": "file_type_gradle",
+    "groovy": "file_type_groovy",
+    "gvy": "file_type_groovy",
+    "gy": "file_type_groovy",
+    "gsh": "file_type_groovy"
   }
 }
