@@ -48,6 +48,9 @@
     "file_type_kotlin": {
       "iconPath": "./icons/kotlin.svg"
     },
+    "file_type_shell": {
+      "iconPath": "./icons/shell.svg"
+    },
     "file_type_ignore": {
       "iconPath": "./icons/ignore_file.svg"
     },
@@ -80,6 +83,8 @@
     "class": "file_type_java_class",
     "py": "file_type_python",
     "dart": "file_type_dart",
-    "kt": "file_type_kotlin"
+    "kt": "file_type_kotlin",
+    "sh": "file_type_shell",
+    "bash": "file_type_shell"
   }
 }
