@@ -78,6 +78,9 @@
     "file_type_less": {
       "iconPath": "./icons/less.svg"
     },
+    "file_type_html": {
+      "iconPath": "./icons/html.svg"
+    },
     "folder_type": {
       "iconPath": "./icons/folder.svg"
     }
@@ -120,6 +123,7 @@
     "hpp": "file_type_header",
     "rb": "file_type_ruby",
     "sass": "file_type_sass",
-    "less": "file_type_less"
+    "less": "file_type_less",
+    "html": "file_type_html"
   }
 }
