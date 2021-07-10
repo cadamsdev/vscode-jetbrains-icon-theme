@@ -153,6 +153,7 @@
     "jpg": "file_type_image",
     "gif": "file_type_image",
     "ico": "file_type_image",
+    "svg": "file_type_image",
     "xml": "file_type_xml",
     "c": "file_type_c",
     "cpp": "file_type_cpp",
