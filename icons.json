@@ -15,6 +15,9 @@
     "file_type_json": {
       "iconPath": "./icons/json.svg"
     },
+    "file_type_typescript": {
+      "iconPath": "./icons/typescript.svg"
+    },
     "file_type_ignore": {
       "iconPath": "./icons/ignore_file.svg"
     },
@@ -35,6 +38,7 @@
     "css": "file_type_css",
     "js": "file_type_javascript",
     "txt": "file_type_text",
-    "json": "file_type_json"
+    "json": "file_type_json",
+    "ts": "file_type_typescript"
   }
 }
