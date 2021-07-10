@@ -114,6 +114,9 @@
     "file_type_go": {
       "iconPath": "./icons/go.svg"
     },
+    "file_type_eslint": {
+      "iconPath": "./icons/eslint.svg"
+    },
     "folder_type": {
       "iconPath": "./icons/folder.svg"
     }
@@ -126,6 +129,8 @@
   "fileNames": {
     ".gitignore": "file_type_ignore",
     ".dockerignore": "file_type_ignore",
+    ".eslintignore": "file_type_eslint",
+    ".eslintrc.js": "file_type_eslint",
     "makefile": "file_type_makefile",
     "dockerfile": "file_type_dockerfile",
     "docker-compose.yml": "file_type_dockercompose"
