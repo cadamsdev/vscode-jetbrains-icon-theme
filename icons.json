@@ -123,6 +123,9 @@
     "file_type_yarn": {
       "iconPath": "./icons/yarn.svg"
     },
+    "file_type_htaccess": {
+      "iconPath": "./icons/htaccess.svg"
+    },
     "folder_type": {
       "iconPath": "./icons/folder.svg"
     }
@@ -141,7 +144,8 @@
     "makefile": "file_type_makefile",
     "dockerfile": "file_type_dockerfile",
     "docker-compose.yml": "file_type_dockercompose",
-    "yarn.lock": "file_type_yarn"
+    "yarn.lock": "file_type_yarn",
+    ".htaccess": "file_type_htaccess"
   },
   "fileExtensions": {
     "css": "file_type_css",
