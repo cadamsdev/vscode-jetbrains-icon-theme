@@ -138,6 +138,9 @@
     "file_type_model": {
       "iconPath": "./icons/model.svg"
     },
+    "file_type_csv": {
+      "iconPath": "./icons/csv.svg"
+    },
     "folder_type": {
       "iconPath": "./icons/folder.svg"
     }
@@ -222,6 +225,7 @@
     "stl": "file_type_model",
     "wrl": "file_type_model",
     "obj": "file_type_model",
-    "prt": "file_type_model"
+    "prt": "file_type_model",
+    "csv": "file_type_csv"
   }
 }
