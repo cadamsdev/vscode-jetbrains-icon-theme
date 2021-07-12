@@ -135,6 +135,9 @@
     "file_type_cuda_header": {
       "iconPath": "./icons/cuda_header.svg"
     },
+    "file_type_model": {
+      "iconPath": "./icons/model.svg"
+    },
     "folder_type": {
       "iconPath": "./icons/folder.svg"
     }
@@ -209,6 +212,16 @@
     "go": "file_type_go",
     "asm": "file_type_assembly",
     "cu": "file_type_cuda",
-    "cuh": "file_type_cuda_header"
+    "cuh": "file_type_cuda_header",
+    "3ds": "file_type_model",
+    "fbx": "file_type_model",
+    "dae": "file_type_model",
+    "stp": "file_type_model",
+    "igs": "file_type_model",
+    "iges": "file_type_model",
+    "stl": "file_type_model",
+    "wrl": "file_type_model",
+    "obj": "file_type_model",
+    "prt": "file_type_model"
   }
 }
