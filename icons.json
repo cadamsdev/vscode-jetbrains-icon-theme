@@ -129,6 +129,12 @@
     "file_type_assembly": {
       "iconPath": "./icons/asm.svg"
     },
+    "file_type_cuda": {
+      "iconPath": "./icons/cuda.svg"
+    },
+    "file_type_cuda_header": {
+      "iconPath": "./icons/cuda_header.svg"
+    },
     "folder_type": {
       "iconPath": "./icons/folder.svg"
     }
@@ -201,6 +207,8 @@
     "gsh": "file_type_groovy",
     "php": "file_type_php",
     "go": "file_type_go",
-    "asm": "file_type_assembly"
+    "asm": "file_type_assembly",
+    "cu": "file_type_cuda",
+    "cuh": "file_type_cuda_header"
   }
 }
