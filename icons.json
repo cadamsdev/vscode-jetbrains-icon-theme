@@ -141,6 +141,9 @@
     "file_type_csv": {
       "iconPath": "./icons/csv.svg"
     },
+    "file_type_binary": {
+      "iconPath": "./icons/binary.svg"
+    },
     "folder_type": {
       "iconPath": "./icons/folder.svg"
     }
@@ -226,6 +229,8 @@
     "wrl": "file_type_model",
     "obj": "file_type_model",
     "prt": "file_type_model",
-    "csv": "file_type_csv"
+    "csv": "file_type_csv",
+    "bin": "file_type_binary",
+    "dat": "file_type_binary"
   }
 }
