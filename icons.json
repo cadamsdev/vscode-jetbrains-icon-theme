@@ -196,6 +196,7 @@
     "hpp": "file_type_header",
     "rb": "file_type_ruby",
     "sass": "file_type_sass",
+    "scss": "file_type_sass",
     "less": "file_type_less",
     "html": "file_type_html",
     "coffee": "file_type_coffeescript",
