@@ -126,6 +126,9 @@
     "file_type_htaccess": {
       "iconPath": "./icons/htaccess.svg"
     },
+    "file_type_assembly": {
+      "iconPath": "./icons/asm.svg"
+    },
     "folder_type": {
       "iconPath": "./icons/folder.svg"
     }
@@ -197,6 +200,7 @@
     "gy": "file_type_groovy",
     "gsh": "file_type_groovy",
     "php": "file_type_php",
-    "go": "file_type_go"
+    "go": "file_type_go",
+    "asm": "file_type_assembly"
   }
 }
