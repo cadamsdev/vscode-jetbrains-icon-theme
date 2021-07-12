@@ -120,6 +120,9 @@
     "file_type_editorconfig": {
       "iconPath": "./icons/editorconfig.svg"
     },
+    "file_type_yarn": {
+      "iconPath": "./icons/yarn.svg"
+    },
     "folder_type": {
       "iconPath": "./icons/folder.svg"
     }
@@ -137,7 +140,8 @@
     ".editorconfig": "file_type_editorconfig",
     "makefile": "file_type_makefile",
     "dockerfile": "file_type_dockerfile",
-    "docker-compose.yml": "file_type_dockercompose"
+    "docker-compose.yml": "file_type_dockercompose",
+    "yarn.lock": "file_type_yarn"
   },
   "fileExtensions": {
     "css": "file_type_css",
