@@ -147,6 +147,9 @@
     "file_type_toml": {
       "iconPath": "./icons/toml.svg"
     },
+    "file_type_rust": {
+      "iconPath": "./icons/rust.svg"
+    },
     "folder_type": {
       "iconPath": "./icons/folder.svg"
     }
@@ -236,6 +239,7 @@
     "csv": "file_type_csv",
     "bin": "file_type_binary",
     "dat": "file_type_binary",
-    "toml": "file_type_toml"
+    "toml": "file_type_toml",
+    "rs": "file_type_rust"
   }
 }
