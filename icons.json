@@ -144,6 +144,9 @@
     "file_type_binary": {
       "iconPath": "./icons/binary.svg"
     },
+    "file_type_rust": {
+      "iconPath": "./icons/rust.svg"
+    },
     "folder_type": {
       "iconPath": "./icons/folder.svg"
     }
@@ -232,6 +235,7 @@
     "prt": "file_type_model",
     "csv": "file_type_csv",
     "bin": "file_type_binary",
-    "dat": "file_type_binary"
+    "dat": "file_type_binary",
+    "rs": "file_type_rust"
   }
 }
