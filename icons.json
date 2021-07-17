@@ -150,6 +150,9 @@
     "file_type_rust": {
       "iconPath": "./icons/rust.svg"
     },
+    "file_type_julia": {
+      "iconPath": "./icons/julia.svg"
+    },
     "folder_type": {
       "iconPath": "./icons/folder.svg"
     }
@@ -240,6 +243,7 @@
     "bin": "file_type_binary",
     "dat": "file_type_binary",
     "toml": "file_type_toml",
-    "rs": "file_type_rust"
+    "rs": "file_type_rust",
+    "jl": "file_type_julia"
   }
 }
