@@ -177,6 +177,7 @@
   "fileExtensions": {
     "css": "file_type_css",
     "js": "file_type_javascript",
+    "mjs": "file_type_javascript",  
     "txt": "file_type_text",
     "json": "file_type_json",
     "ts": "file_type_typescript",
