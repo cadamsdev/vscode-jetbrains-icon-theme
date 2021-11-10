@@ -167,6 +167,7 @@
     ".dockerignore": "file_type_ignore",
     ".eslintignore": "file_type_eslint",
     ".eslintrc.js": "file_type_eslint",
+    ".eslintrc.json": "file_type_eslint",
     ".editorconfig": "file_type_editorconfig",
     "makefile": "file_type_makefile",
     "dockerfile": "file_type_dockerfile",
