@@ -41,6 +41,13 @@
         "label": "JetBrains Icon Theme",
         "path": "icons.json"
       }
+    ],
+    "productIconThemes": [
+      {
+        "id": "vscode-jetbrains-icon-theme",
+        "label": "JetBrains Icon Theme",
+        "path": "icons.json"
+      }
     ]
   }
 }
