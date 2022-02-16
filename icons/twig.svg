@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <polygon id="twigfileicon-a" points="0 0 10 0 10 14 0 14"/>
+    <polygon id="twigfileicon-c" points="0 0 5 0 5 8 0 8"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" opacity=".9">
+    <g transform="translate(2 1)">
+      <mask id="twigfileicon-b" fill="#fff">
+        <use xlink:href="#twigfileicon-a"/>
+      </mask>
+      <path fill="#63BF6A" d="M6.66666667,13.0449 C6.66666667,13.3669 6.65111111,13.6839 6.63333333,13.9999 L9.96333333,13.9999 C9.98,13.6839 10,13.3669 10,13.0449 C10,5.8909 6.66666667,-0.0001 0,-0.0001 C5.55555556,1.9999 6.66666667,6.6279 6.66666667,13.0449" mask="url(#twigfileicon-b)"/>
+    </g>
+    <path fill="#78DC50" d="M5.26590828,15 L10,15 C8.80234625,10.318 5.80341273,7 1,7 C4.80519019,8.428 5.26590828,12 5.26590828,15"/>
+    <g transform="translate(10 7)">
+      <mask id="twigfileicon-d" fill="#fff">
+        <use xlink:href="#twigfileicon-c"/>
+      </mask>
+      <path fill="#78DC50" d="M2.9541,8 L0.0001,8 C0.0001,3.634 2.0001,0 3.0001,0 C4.0001,0 4.6241,0.495 5.0001,2 C4.4541,1.432 3.8991,0.859 3.2271,1.046 C2.1591,1.341 2.9541,5.418 2.9541,8" mask="url(#twigfileicon-d)"/>
+    </g>
+  </g>
+</svg>
