@@ -179,13 +179,12 @@
     "dockerfile": "file_type_dockerfile",
     "docker-compose.yml": "file_type_dockercompose",
     "yarn.lock": "file_type_yarn",
-    ".htaccess": "file_type_htaccess",
-    "blade.php": "file_type_blade"
+    ".htaccess": "file_type_htaccess"
   },
   "fileExtensions": {
     "css": "file_type_css",
     "js": "file_type_javascript",
-    "mjs": "file_type_javascript",  
+    "mjs": "file_type_javascript",
     "txt": "file_type_text",
     "json": "file_type_json",
     "ts": "file_type_typescript",
@@ -256,6 +255,7 @@
     "rs": "file_type_rust",
     "jl": "file_type_julia",
     "twig": "file_type_twig",
-    "html.twig": "file_type_twig"
+    "html.twig": "file_type_twig",
+    "blade.php": "file_type_blade"
   }
 }
