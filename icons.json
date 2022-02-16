@@ -180,8 +180,7 @@
     "docker-compose.yml": "file_type_dockercompose",
     "yarn.lock": "file_type_yarn",
     ".htaccess": "file_type_htaccess",
-    "blade.php": "file_type_blade",
-    "twig": "file_type_twig"
+    "blade.php": "file_type_blade"
   },
   "fileExtensions": {
     "css": "file_type_css",
@@ -235,6 +234,7 @@
     "gy": "file_type_groovy",
     "gsh": "file_type_groovy",
     "php": "file_type_php",
+    "phtml": "file_type_php",
     "go": "file_type_go",
     "asm": "file_type_assembly",
     "cu": "file_type_cuda",
@@ -255,6 +255,7 @@
     "toml": "file_type_toml",
     "rs": "file_type_rust",
     "jl": "file_type_julia",
-    "phtml": "file_type_php"
+    "twig": "file_type_twig",
+    "html.twig": "file_type_twig"
   }
 }
