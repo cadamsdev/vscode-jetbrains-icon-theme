@@ -179,7 +179,8 @@
     "dockerfile": "file_type_dockerfile",
     "docker-compose.yml": "file_type_dockercompose",
     "yarn.lock": "file_type_yarn",
-    ".htaccess": "file_type_htaccess"
+    ".htaccess": "file_type_htaccess",
+    "license": "file_type_text"
   },
   "fileExtensions": {
     "css": "file_type_css",
