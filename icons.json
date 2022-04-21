@@ -161,6 +161,9 @@
     },
     "file_type_twig": {
       "iconPath": "./icons/twig.svg"
+    },
+    "file_type_svelte": {
+      "iconPath": "./icons/svelte.svg"
     }
   },
   "file": "file_type",
@@ -258,6 +261,7 @@
     "jl": "file_type_julia",
     "twig": "file_type_twig",
     "html.twig": "file_type_twig",
-    "blade.php": "file_type_blade"
+    "blade.php": "file_type_blade",
+    "svelte": "file_type_svelte"
   }
 }
