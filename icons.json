@@ -164,6 +164,27 @@
     },
     "file_type_svelte": {
       "iconPath": "./icons/svelte.svg"
+    },
+    "file_type_aux": {
+      "iconPath": "./icons/aux.svg"
+    },
+    "file_type_bbl": {
+      "iconPath": "./icons/bbl.svg"
+    },
+    "file_type_bib": {
+      "iconPath": "./icons/bib.svg"
+    },
+    "file_type_pdf": {
+      "iconPath": "./icons/pdf.svg"
+    },
+    "file_type_tex": {
+      "iconPath": "./icons/tex.svg"
+    },
+    "file_type_cls": {
+      "iconPath": "./icons/cls.svg"
+    },
+    "file_type_sty": {
+      "iconPath": "./icons/sty.svg"
     }
   },
   "file": "file_type",
@@ -262,6 +283,13 @@
     "twig": "file_type_twig",
     "html.twig": "file_type_twig",
     "blade.php": "file_type_blade",
-    "svelte": "file_type_svelte"
+    "svelte": "file_type_svelte",
+    "aux": "file_type_aux",
+    "bbl": "file_type_bbl",
+    "bib": "file_type_bib",
+    "pdf": "file_type_pdf",
+    "tex": "file_type_tex",
+    "cls": "file_type_cls",
+    "sty": "file_type_sty"
   }
 }
