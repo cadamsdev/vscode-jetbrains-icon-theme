@@ -179,6 +179,12 @@
     },
     "file_type_tex": {
       "iconPath": "./icons/tex.svg"
+    },
+    "file_type_cls": {
+      "iconPath": "./icons/cls.svg"
+    },
+    "file_type_sty": {
+      "iconPath": "./icons/sty.svg"
     }
   },
   "file": "file_type",
@@ -282,6 +288,8 @@
     "bbl": "file_type_bbl",
     "bib": "file_type_bib",
     "pdf": "file_type_pdf",
-    "tex": "file_type_tex"
+    "tex": "file_type_tex",
+    "cls": "file_type_cls",
+    "sty": "file_type_sty"
   }
 }
