@@ -166,7 +166,7 @@
       "iconPath": "./icons/svelte.svg"
     },
     "file_type_aux": {
-      "iconPath": "./icons/aux.svg"
+      "iconPath": "./icons/latex_aux.svg"
     },
     "file_type_bbl": {
       "iconPath": "./icons/bbl.svg"
