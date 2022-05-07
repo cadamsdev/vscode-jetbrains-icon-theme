@@ -28,9 +28,12 @@
   ],
   "keywords": [
     "jetbrains",
-    "icon",
+    "icons",
+    "icon-theme",
     "theme",
-    "intellij"
+    "intellij",
+    "webstorm",
+    "idea"
   ],
   "bugs": {
 		"url": "https://github.com/chadalen/vscode-jetbrains-icon-theme/issues"
