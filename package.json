@@ -19,8 +19,7 @@
     "vscode": "^1.52.0"
   },
   "categories": [
-    "Themes",
-    "Other"
+    "Themes"
   ],
   "extensionKind": [
     "ui",
