@@ -9,6 +9,7 @@
 		"url": "https://chadalen.com"
 	},
   "version": "1.0.12",
+  "license": "MIT",
   "icon": "logo.png",
   "repository": {
     "type": "git",
