@@ -185,6 +185,9 @@
     },
     "file_type_sty": {
       "iconPath": "./icons/sty.svg"
+    },
+    "file_type_mdx": {
+      "iconPath": "./icons/mdx.svg"
     }
   },
   "file": "file_type",
@@ -290,6 +293,7 @@
     "pdf": "file_type_pdf",
     "tex": "file_type_tex",
     "cls": "file_type_cls",
-    "sty": "file_type_sty"
+    "sty": "file_type_sty",
+    "mdx": "file_type_mdx"
   }
 }
