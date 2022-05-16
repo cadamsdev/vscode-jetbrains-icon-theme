@@ -3,12 +3,12 @@
   "displayName": "JetBrains Icon Theme",
   "description": "JetBrains Icon Theme for VSCode",
   "publisher": "chadalen",
-	"author": {
-		"name": "Chad Adams",
-		"email": "me@chadalen.com",
-		"url": "https://chadalen.com"
-	},
-  "version": "1.0.13",
+  "author": {
+    "name": "Chad Adams",
+    "email": "me@chadalen.com",
+    "url": "https://chadalen.com"
+  },
+  "version": "1.0.14",
   "license": "MIT",
   "icon": "logo.png",
   "repository": {
@@ -35,8 +35,8 @@
     "idea"
   ],
   "bugs": {
-		"url": "https://github.com/chadalen/vscode-jetbrains-icon-theme/issues"
-	},
+    "url": "https://github.com/chadalen/vscode-jetbrains-icon-theme/issues"
+  },
   "contributes": {
     "iconThemes": [
       {
