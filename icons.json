@@ -194,6 +194,9 @@
     },
     "file_type_test_jsx": {
       "iconPath": "./icons/test_jsx.svg"
+    },
+    "file_type_test_js": {
+      "iconPath": "./icons/test_js.svg"
     }
   },
   "file": "file_type",
@@ -302,6 +305,7 @@
     "sty": "file_type_sty",
     "mdx": "file_type_mdx",
     "test.ts": "file_type_test_ts",
-    "test.jsx": "file_type_test_jsx"
+    "test.jsx": "file_type_test_jsx",
+    "test.js": "file_type_test_js"
   }
 }
