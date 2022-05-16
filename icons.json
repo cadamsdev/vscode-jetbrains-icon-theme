@@ -188,6 +188,9 @@
     },
     "file_type_mdx": {
       "iconPath": "./icons/mdx.svg"
+    },
+    "file_type_test_ts": {
+      "iconPath": "./icons/test_ts.svg"
     }
   },
   "file": "file_type",
@@ -294,6 +297,7 @@
     "tex": "file_type_tex",
     "cls": "file_type_cls",
     "sty": "file_type_sty",
-    "mdx": "file_type_mdx"
+    "mdx": "file_type_mdx",
+    "test.ts": "file_type_test_ts"
   }
 }
