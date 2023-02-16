@@ -197,6 +197,9 @@
     },
     "file_type_test_js": {
       "iconPath": "./icons/test_js.svg"
+    },
+    "file_type_graphql": {
+      "iconPath": "./icons/graphql.svg"
     }
   },
   "file": "file_type",
@@ -307,6 +310,9 @@
     "mdx": "file_type_mdx",
     "test.ts": "file_type_test_ts",
     "test.jsx": "file_type_test_jsx",
-    "test.js": "file_type_test_js"
+    "test.js": "file_type_test_js",
+    "gql": "file_type_graphql",
+    "graphql": "file_type_graphql",
+    "graphqls": "file_type_graphql"
   }
 }
