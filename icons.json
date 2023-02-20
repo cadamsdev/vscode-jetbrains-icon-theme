@@ -200,6 +200,9 @@
     },
     "file_type_graphql": {
       "iconPath": "./icons/graphql.svg"
+    },
+    "file_type_postcss": {
+      "iconPath": "./icons/postcss.svg"
     }
   },
   "file": "file_type",
@@ -220,7 +223,9 @@
     "yarn.lock": "file_type_yarn",
     ".htaccess": "file_type_htaccess",
     "license": "file_type_text",
-    ".prettierrc": "file_type_json"
+    ".prettierrc": "file_type_json",
+    "postcss.config.cjs": "file_type_postcss",
+    "postcss.config.js": "file_type_postcss"
   },
   "fileExtensions": {
     "css": "file_type_css",
