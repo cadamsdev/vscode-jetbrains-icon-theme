@@ -11,6 +11,9 @@
   "version": "1.0.17",
   "license": "MIT",
   "icon": "logo.png",
+  "scripts": {
+    "build": "vsce package"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/chadalen/vscode-jetbrains-icon-theme"
@@ -45,5 +48,8 @@
         "path": "icons.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.19.0"
   }
 }
