@@ -13,7 +13,7 @@
   "icon": "logo.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chadalen/vscode-jetbrains-icon-theme"
+    "url": "https://github.com/cadamsdev/vscode-jetbrains-icon-theme"
   },
   "engines": {
     "vscode": "^1.52.0"
