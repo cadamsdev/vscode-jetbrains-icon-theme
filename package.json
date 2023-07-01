@@ -45,5 +45,13 @@
         "path": "icons.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@semantic-release/commit-analyzer": "^10.0.1",
+    "@semantic-release/github": "^9.0.3",
+    "@semantic-release/npm": "^10.0.4",
+    "@semantic-release/release-notes-generator": "^11.0.3",
+    "semantic-release": "^21.0.6",
+    "semantic-release-vsce": "^5.5.10"
   }
 }
