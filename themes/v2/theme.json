@@ -32,6 +32,9 @@
     },
     "file_javascript": {
       "iconPath": "./icons/javaScript.svg"
+    },
+    "file_typescript": {
+      "iconPath": "./icons/typeScript.svg"
     }
   },
   "file": "file_text",
@@ -50,6 +53,7 @@
     "jsx": "file_react",
     "tsx": "file_react",
     "less": "file_less",
-    "js": "file_javascript"
+    "js": "file_javascript",
+    "ts": "file_typescript"
   }
 }
