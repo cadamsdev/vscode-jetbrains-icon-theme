@@ -65,6 +65,9 @@
     },
     "file_yarn": {
       "iconPath": "./icons/yarn.svg"
+    },
+    "file_markdown": {
+      "iconPath": "./icons/markdown_dark.svg"
     }
   },
   "file": "file_text",
@@ -73,7 +76,8 @@
   "fileNames": {
     ".gitignore": "file_ignored",
     ".editorconfig": "file_editorconfig",
-    "yarn.lock": "file_yarn"
+    "yarn.lock": "file_yarn",
+    "README": "file_markdown"
   },
   "fileExtensions": {
     "css": "file_css",
@@ -103,6 +107,7 @@
     "yml": "file_yaml",
     "java": "file_java",
     "xml": "file_xml",
-    "sql": "file_sql"
+    "sql": "file_sql",
+    "md": "file_markdown"
   }
 }
