@@ -74,6 +74,9 @@
     },
     "file_properties": {
       "iconPath": "./icons/properties_dark.svg"
+    },
+    "file_shell": {
+      "iconPath": "./icons/shell_dark.svg"
     }
   },
   "file": "file_text",
@@ -115,6 +118,9 @@
     "xml": "file_xml",
     "sql": "file_sql",
     "md": "file_markdown",
-    "properties": "file_properties"
+    "properties": "file_properties",
+    "sh": "file_shell",
+    "zsh": "file_shell",
+    "bash": "file_shell"
   }
 }
