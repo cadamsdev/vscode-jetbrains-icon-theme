@@ -6,14 +6,14 @@
   "author": {
     "name": "Chad Adams",
     "email": "me@chadalen.com",
-    "url": "https://chadalen.com"
+    "url": "https://cadamsdev.com"
   },
-  "version": "1.0.17",
+  "version": "1.1.0",
   "license": "MIT",
   "icon": "logo.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chadalen/vscode-jetbrains-icon-theme"
+    "url": "https://github.com/cadamsdev/vscode-jetbrains-icon-theme"
   },
   "engines": {
     "vscode": "^1.52.0"
@@ -45,5 +45,13 @@
         "path": "icons.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@semantic-release/commit-analyzer": "^10.0.1",
+    "@semantic-release/github": "^9.0.3",
+    "@semantic-release/npm": "^10.0.4",
+    "@semantic-release/release-notes-generator": "^11.0.3",
+    "semantic-release": "^21.0.6",
+    "semantic-release-vsce": "^5.5.10"
   }
 }
