@@ -101,7 +101,8 @@
     ".gitignore": "file_gitignore",
     ".editorconfig": "file_editorconfig",
     "yarn.lock": "file_yarn",
-    "README": "file_markdown"
+    "README": "file_markdown",
+    ".dockerignore": "file_ignored"
   },
   "fileExtensions": {
     "css": "file_css",
