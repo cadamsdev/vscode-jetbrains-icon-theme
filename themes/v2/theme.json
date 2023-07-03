@@ -47,6 +47,9 @@
     },
     "file_image": {
       "iconPath": "./icons/image.svg"
+    },
+    "file_font": {
+      "iconPath": "./icons/font.svg"
     }
   },
   "file": "file_text",
@@ -75,6 +78,10 @@
     "jpg": "file_image",
     "gif": "file_image",
     "ico": "file_image",
-    "svg": "file_image"
+    "svg": "file_image",
+    "ttf": "file_font",
+    "woff": "file_font",
+    "oft": "file_font",
+    "eot": "file_font"
   }
 }
