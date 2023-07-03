@@ -23,6 +23,9 @@
     },
     "file_html": {
       "iconPath": "./icons/html.svg"
+    },
+    "file_react": {
+      "iconPath": "./icons/react.svg"
     }
   },
   "file": "file_text",
@@ -37,6 +40,8 @@
     "sass": "file_scss",
     "kt": "file_kotlin",
     "json": "file_json",
-    "html": "file_html"
+    "html": "file_html",
+    "jsx": "file_react",
+    "tsx": "file_react"
   }
 }
