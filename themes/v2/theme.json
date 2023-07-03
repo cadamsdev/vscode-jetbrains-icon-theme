@@ -89,6 +89,9 @@
     },
     "file_scala": {
       "iconPath": "./icons/scala.svg"
+    },
+    "file_archive": {
+      "iconPath": "./icons/archive.svg"
     }
   },
   "file": "file_text",
@@ -138,6 +141,11 @@
     "hpp": "file_h",
     "c": "file_c",
     "cpp": "file_cpp",
-    "scala": "file_scala"
+    "scala": "file_scala",
+    "gz": "file_archive",
+    "zip": "file_archive",
+    "rar": "file_archive",
+    "7z": "file_archive",
+    "tar": "file_archive"
   }
 }
