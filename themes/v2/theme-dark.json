@@ -71,6 +71,9 @@
     },
     "file_gitignore": {
       "iconPath": "./icons/gitignore.svg"
+    },
+    "file_properties": {
+      "iconPath": "./icons/properties_dark.svg"
     }
   },
   "file": "file_text",
@@ -111,6 +114,7 @@
     "java": "file_java",
     "xml": "file_xml",
     "sql": "file_sql",
-    "md": "file_markdown"
+    "md": "file_markdown",
+    "properties": "file_properties"
   }
 }
