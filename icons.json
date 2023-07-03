@@ -203,6 +203,9 @@
     },
     "file_type_postcss": {
       "iconPath": "./icons/postcss.svg"
+    },
+    "file_type_lua": {
+      "iconPath": "./icons/lua.svg"
     }
   },
   "file": "file_type",
@@ -318,6 +321,7 @@
     "test.js": "file_type_test_js",
     "gql": "file_type_graphql",
     "graphql": "file_type_graphql",
-    "graphqls": "file_type_graphql"
+    "graphqls": "file_type_graphql",
+    "lua": "file_type_lua"
   }
 }
