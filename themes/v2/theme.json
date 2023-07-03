@@ -1,28 +1,34 @@
 {
   "iconDefinitions": {
-    "file_type": {
+    "file_text": {
       "iconPath": "./icons/text.svg"
     },
-    "file_type_kotlin": {
+    "file_kotlin": {
       "iconPath": "./icons/kotlin.svg"
     },
-    "file_type_folder": {
+    "folder": {
       "iconPath": "./icons/folder.svg"
     },
-    "file_type_gitignore": {
+    "file_gitignore": {
       "iconPath": "./icons/gitignore.svg"
     },
-    "file_type_css": {
+    "file_css": {
       "iconPath": "./icons/css.svg"
+    },
+    "file_scss": {
+      "iconPath": "./icons/scss.svg"
     }
   },
-  "file": "file_type",
-  "folder": "folder_type",
+  "file": "file_text",
+  "folder": "folder",
   "folderNames": {},
   "fileNames": {
-    ".gitignore": "file_type_gitignore"
+    ".gitignore": "file_gitignore"
   },
   "fileExtensions": {
-    "css": "file_type_css"
+    "css": "file_css",
+    "scss": "file_scss",
+    "sass": "file_scss",
+    "kt": "file_kotlin"
   }
 }
