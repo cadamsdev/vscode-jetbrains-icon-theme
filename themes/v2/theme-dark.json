@@ -68,13 +68,16 @@
     },
     "file_markdown": {
       "iconPath": "./icons/markdown_dark.svg"
+    },
+    "file_gitignore": {
+      "iconPath": "./icons/gitignore.svg"
     }
   },
   "file": "file_text",
   "folder": "folder",
   "folderNames": {},
   "fileNames": {
-    ".gitignore": "file_ignored",
+    ".gitignore": "file_gitignore",
     ".editorconfig": "file_editorconfig",
     "yarn.lock": "file_yarn",
     "README": "file_markdown"
