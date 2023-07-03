@@ -38,6 +38,9 @@
     },
     "file_csv": {
       "iconPath": "./icons/csv.svg"
+    },
+    "file_vue": {
+      "iconPath": "./icons/vueJs.svg"
     }
   },
   "file": "file_text",
@@ -58,6 +61,7 @@
     "less": "file_less",
     "js": "file_javascript",
     "ts": "file_typescript",
-    "csv": "file_csv"
+    "csv": "file_csv",
+    "vue": "file_vue"
   }
 }
