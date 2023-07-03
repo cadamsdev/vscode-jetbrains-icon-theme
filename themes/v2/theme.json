@@ -77,6 +77,15 @@
     },
     "file_shell": {
       "iconPath": "./icons/shell.svg"
+    },
+    "file_h": {
+      "iconPath": "./icons/h.svg"
+    },
+    "file_c": {
+      "iconPath": "./icons/c.svg"
+    },
+    "file_cpp": {
+      "iconPath": "./icons/cpp.svg"
     }
   },
   "file": "file_text",
@@ -121,6 +130,10 @@
     "properties": "file_properties",
     "sh": "file_shell",
     "zsh": "file_shell",
-    "bash": "file_shell"
+    "bash": "file_shell",
+    "h": "file_h",
+    "hpp": "file_h",
+    "c": "file_c",
+    "cpp": "file_cpp"
   }
 }
