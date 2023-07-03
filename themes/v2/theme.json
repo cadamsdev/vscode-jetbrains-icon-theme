@@ -35,6 +35,9 @@
     },
     "file_typescript": {
       "iconPath": "./icons/typeScript.svg"
+    },
+    "file_csv": {
+      "iconPath": "./icons/csv.svg"
     }
   },
   "file": "file_text",
@@ -54,6 +57,7 @@
     "tsx": "file_react",
     "less": "file_less",
     "js": "file_javascript",
-    "ts": "file_typescript"
+    "ts": "file_typescript",
+    "csv": "file_csv"
   }
 }
