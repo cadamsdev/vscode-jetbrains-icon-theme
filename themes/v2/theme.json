@@ -26,6 +26,9 @@
     },
     "file_react": {
       "iconPath": "./icons/react.svg"
+    },
+    "file_less": {
+      "iconPath": "./icons/less.svg"
     }
   },
   "file": "file_text",
@@ -42,6 +45,7 @@
     "json": "file_json",
     "html": "file_html",
     "jsx": "file_react",
-    "tsx": "file_react"
+    "tsx": "file_react",
+    "less": "file_less"
   }
 }
