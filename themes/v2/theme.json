@@ -53,6 +53,9 @@
     },
     "file_yaml": {
       "iconPath": "./icons/yaml.svg"
+    },
+    "file_java": {
+      "iconPath": "./icons/java.svg"
     }
   },
   "file": "file_text",
@@ -87,6 +90,7 @@
     "oft": "file_font",
     "eot": "file_font",
     "yaml": "file_yaml",
-    "yml": "file_yaml"
+    "yml": "file_yaml",
+    "java": "file_java"
   }
 }
