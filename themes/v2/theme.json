@@ -9,8 +9,8 @@
     "folder": {
       "iconPath": "./icons/folder.svg"
     },
-    "file_gitignore": {
-      "iconPath": "./icons/gitignore.svg"
+    "file_ignored": {
+      "iconPath": "./icons/ignored.svg"
     },
     "file_css": {
       "iconPath": "./icons/css.svg"
@@ -35,7 +35,7 @@
   "folder": "folder",
   "folderNames": {},
   "fileNames": {
-    ".gitignore": "file_gitignore"
+    ".gitignore": "file_ignored"
   },
   "fileExtensions": {
     "css": "file_css",
