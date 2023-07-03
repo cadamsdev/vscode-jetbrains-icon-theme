@@ -44,6 +44,9 @@
     },
     "file_editorconfig": {
       "iconPath": "./icons/editorConfig.svg"
+    },
+    "file_image": {
+      "iconPath": "./icons/image.svg"
     }
   },
   "file": "file_text",
@@ -66,6 +69,12 @@
     "js": "file_javascript",
     "ts": "file_typescript",
     "csv": "file_csv",
-    "vue": "file_vue"
+    "vue": "file_vue",
+    "png": "file_image",
+    "webp": "file_image",
+    "jpg": "file_image",
+    "gif": "file_image",
+    "ico": "file_image",
+    "svg": "file_image"
   }
 }
