@@ -41,13 +41,17 @@
     },
     "file_vue": {
       "iconPath": "./icons/vueJs.svg"
+    },
+    "file_editorconfig": {
+      "iconPath": "./icons/editorConfig.svg"
     }
   },
   "file": "file_text",
   "folder": "folder",
   "folderNames": {},
   "fileNames": {
-    ".gitignore": "file_ignored"
+    ".gitignore": "file_ignored",
+    ".editorconfig": "file_editorconfig"
   },
   "fileExtensions": {
     "css": "file_css",
