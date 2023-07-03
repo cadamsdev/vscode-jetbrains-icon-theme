@@ -59,6 +59,9 @@
     },
     "file_xml": {
       "iconPath": "./icons/xml.svg"
+    },
+    "file_sql": {
+      "iconPath": "./icons/sql.svg"
     }
   },
   "file": "file_text",
@@ -95,6 +98,7 @@
     "yaml": "file_yaml",
     "yml": "file_yaml",
     "java": "file_java",
-    "xml": "file_xml"
+    "xml": "file_xml",
+    "sql": "file_sql"
   }
 }
