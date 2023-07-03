@@ -86,6 +86,9 @@
     },
     "file_cpp": {
       "iconPath": "./icons/cpp_dark.svg"
+    },
+    "file_scala": {
+      "iconPath": "./icons/scala_dark.svg"
     }
   },
   "file": "file_text",
@@ -134,6 +137,7 @@
     "h": "file_h",
     "hpp": "file_h",
     "c": "file_c",
-    "cpp": "file_cpp"
+    "cpp": "file_cpp",
+    "scala": "file_scala"
   }
 }
