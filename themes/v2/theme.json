@@ -20,6 +20,9 @@
     },
     "file_json": {
       "iconPath": "./icons/json.svg"
+    },
+    "file_html": {
+      "iconPath": "./icons/html.svg"
     }
   },
   "file": "file_text",
@@ -33,6 +36,7 @@
     "scss": "file_scss",
     "sass": "file_scss",
     "kt": "file_kotlin",
-    "json": "file_json"
+    "json": "file_json",
+    "html": "file_html"
   }
 }
