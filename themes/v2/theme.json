@@ -50,6 +50,9 @@
     },
     "file_font": {
       "iconPath": "./icons/font.svg"
+    },
+    "file_yaml": {
+      "iconPath": "./icons/yaml.svg"
     }
   },
   "file": "file_text",
@@ -82,6 +85,8 @@
     "ttf": "file_font",
     "woff": "file_font",
     "oft": "file_font",
-    "eot": "file_font"
+    "eot": "file_font",
+    "yaml": "file_yaml",
+    "yml": "file_yaml"
   }
 }
