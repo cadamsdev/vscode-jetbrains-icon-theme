@@ -42,12 +42,12 @@
       {
         "id": "vscode-jetbrains-icon-theme",
         "label": "JetBrains Icon Theme v1 Dark",
-        "path": "./themes/v1/theme.json"
+        "path": "./themes/v1/theme-dark.json"
       },
       {
         "id": "vscode-jetbrains-icon-theme-v2",
         "label": "JetBrains Icon Theme 2023+ UI Light",
-        "path": "./themes/v2/theme.json"
+        "path": "./themes/v2/theme-light.json"
       },
       {
         "id": "vscode-jetbrains-icon-theme-v2-dark",
