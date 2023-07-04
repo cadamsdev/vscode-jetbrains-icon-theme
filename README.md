@@ -14,7 +14,7 @@ Most icons are from [https://jetbrains.design/intellij/resources/icons_list/](ht
 ## Themes
 
 ### 2023+ UI Dark
-![Preview v2](./themes/v2/preview.png)
+![Preview v2](./themes/2023/preview.png)
 
 ### V1
 ![Preview v1](./themes/v1/preview.png)
