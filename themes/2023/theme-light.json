@@ -1,0 +1,152 @@
+{
+  "iconDefinitions": {
+    "file_text": {
+      "iconPath": "./icons/text.svg"
+    },
+    "file_kotlin": {
+      "iconPath": "./icons/kotlin.svg"
+    },
+    "folder": {
+      "iconPath": "./icons/folder.svg"
+    },
+    "file_ignored": {
+      "iconPath": "./icons/ignored.svg"
+    },
+    "file_css": {
+      "iconPath": "./icons/css.svg"
+    },
+    "file_scss": {
+      "iconPath": "./icons/scss.svg"
+    },
+    "file_json": {
+      "iconPath": "./icons/json.svg"
+    },
+    "file_html": {
+      "iconPath": "./icons/html.svg"
+    },
+    "file_react": {
+      "iconPath": "./icons/react.svg"
+    },
+    "file_less": {
+      "iconPath": "./icons/less.svg"
+    },
+    "file_javascript": {
+      "iconPath": "./icons/javaScript.svg"
+    },
+    "file_typescript": {
+      "iconPath": "./icons/typeScript.svg"
+    },
+    "file_csv": {
+      "iconPath": "./icons/csv.svg"
+    },
+    "file_vue": {
+      "iconPath": "./icons/vueJs.svg"
+    },
+    "file_editorconfig": {
+      "iconPath": "./icons/editorConfig.svg"
+    },
+    "file_image": {
+      "iconPath": "./icons/image.svg"
+    },
+    "file_font": {
+      "iconPath": "./icons/font.svg"
+    },
+    "file_yaml": {
+      "iconPath": "./icons/yaml.svg"
+    },
+    "file_java": {
+      "iconPath": "./icons/java.svg"
+    },
+    "file_xml": {
+      "iconPath": "./icons/xml.svg"
+    },
+    "file_sql": {
+      "iconPath": "./icons/sql.svg"
+    },
+    "file_yarn": {
+      "iconPath": "./icons/yarn.svg"
+    },
+    "file_markdown": {
+      "iconPath": "./icons/markdown.svg"
+    },
+    "file_gitignore": {
+      "iconPath": "./icons/gitignore.svg"
+    },
+    "file_properties": {
+      "iconPath": "./icons/properties.svg"
+    },
+    "file_shell": {
+      "iconPath": "./icons/shell.svg"
+    },
+    "file_h": {
+      "iconPath": "./icons/h.svg"
+    },
+    "file_c": {
+      "iconPath": "./icons/c.svg"
+    },
+    "file_cpp": {
+      "iconPath": "./icons/cpp.svg"
+    },
+    "file_scala": {
+      "iconPath": "./icons/scala.svg"
+    },
+    "file_archive": {
+      "iconPath": "./icons/archive.svg"
+    }
+  },
+  "file": "file_text",
+  "folder": "folder",
+  "folderNames": {},
+  "fileNames": {
+    ".gitignore": "file_gitignore",
+    ".editorconfig": "file_editorconfig",
+    "yarn.lock": "file_yarn",
+    "README": "file_markdown",
+    ".dockerignore": "file_ignored"
+  },
+  "fileExtensions": {
+    "css": "file_css",
+    "scss": "file_scss",
+    "sass": "file_scss",
+    "kt": "file_kotlin",
+    "json": "file_json",
+    "html": "file_html",
+    "jsx": "file_react",
+    "tsx": "file_react",
+    "less": "file_less",
+    "js": "file_javascript",
+    "ts": "file_typescript",
+    "csv": "file_csv",
+    "vue": "file_vue",
+    "png": "file_image",
+    "webp": "file_image",
+    "jpg": "file_image",
+    "gif": "file_image",
+    "ico": "file_image",
+    "svg": "file_image",
+    "ttf": "file_font",
+    "woff": "file_font",
+    "oft": "file_font",
+    "eot": "file_font",
+    "yaml": "file_yaml",
+    "yml": "file_yaml",
+    "java": "file_java",
+    "xml": "file_xml",
+    "sql": "file_sql",
+    "md": "file_markdown",
+    "properties": "file_properties",
+    "sh": "file_shell",
+    "zsh": "file_shell",
+    "bash": "file_shell",
+    "h": "file_h",
+    "hpp": "file_h",
+    "c": "file_c",
+    "cpp": "file_cpp",
+    "scala": "file_scala",
+    "gz": "file_archive",
+    "zip": "file_archive",
+    "rar": "file_archive",
+    "7z": "file_archive",
+    "tar": "file_archive"
+  }
+}
