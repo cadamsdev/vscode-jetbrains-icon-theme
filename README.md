@@ -7,4 +7,4 @@ Icons are from [https://jetbrains.design/intellij/resources/icons_list/](https:/
 
 [Marketplace](https://marketplace.visualstudio.com/items?itemName=chadalen.vscode-jetbrains-icon-theme)
 
-![Preview](preview.png)
+![Preview](./themes/v1/preview.png)
