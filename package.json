@@ -45,14 +45,14 @@
         "path": "./themes/v1/theme-dark.json"
       },
       {
-        "id": "vscode-jetbrains-icon-theme-v2",
+        "id": "vscode-jetbrains-icon-theme-2023",
         "label": "JetBrains Icon Theme 2023+ UI Light",
-        "path": "./themes/v2/theme-light.json"
+        "path": "./themes/2023/theme-light.json"
       },
       {
-        "id": "vscode-jetbrains-icon-theme-v2-dark",
+        "id": "vscode-jetbrains-icon-theme-2023-dark",
         "label": "JetBrains Icon Theme 2023+ UI Dark",
-        "path": "./themes/v2/theme-dark.json"
+        "path": "./themes/2023/theme-dark.json"
       }
     ]
   },
