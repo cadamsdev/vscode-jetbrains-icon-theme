@@ -41,17 +41,17 @@
     "iconThemes": [
       {
         "id": "vscode-jetbrains-icon-theme",
-        "label": "JetBrains Icon Theme v1",
+        "label": "JetBrains Icon Theme v1 Dark",
         "path": "./themes/v1/theme.json"
       },
       {
         "id": "vscode-jetbrains-icon-theme-v2",
-        "label": "JetBrains Icon Theme 2023+ UI",
+        "label": "JetBrains Icon Theme 2023+ UI Light",
         "path": "./themes/v2/theme.json"
       },
       {
         "id": "vscode-jetbrains-icon-theme-v2-dark",
-        "label": "JetBrains Icon Theme 2023+ UI (Dark)",
+        "label": "JetBrains Icon Theme 2023+ UI Dark",
         "path": "./themes/v2/theme-dark.json"
       }
     ]
