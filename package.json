@@ -9,6 +9,9 @@
     "url": "https://cadamsdev.com"
   },
   "version": "1.1.0",
+  "scripts": {
+    "build": "vsce package"
+  },
   "license": "MIT",
   "icon": "logo.png",
   "repository": {
@@ -61,6 +64,7 @@
     "@semantic-release/github": "^9.0.3",
     "@semantic-release/npm": "^10.0.4",
     "@semantic-release/release-notes-generator": "^11.0.3",
+    "@vscode/vsce": "^2.19.0",
     "semantic-release": "^21.0.6",
     "semantic-release-vsce": "^5.5.10"
   }
