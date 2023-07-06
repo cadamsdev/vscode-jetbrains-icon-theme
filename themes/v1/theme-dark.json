@@ -206,6 +206,12 @@
     },
     "file_type_erb": {
       "iconPath": "./icons/erb.svg"
+    },
+    "file_type_lua": {
+      "iconPath": "./icons/lua.svg"
+    },
+    "file_type_proto": {
+      "iconPath": "./icons/protobuf.svg"
     }
   },
   "file": "file_type",
@@ -322,6 +328,8 @@
     "gql": "file_type_graphql",
     "graphql": "file_type_graphql",
     "graphqls": "file_type_graphql",
-    "html.erb": "file_type_erb"
+    "html.erb": "file_type_erb",
+    "lua": "file_type_lua",
+    "proto": "file_type_proto"
   }
 }
