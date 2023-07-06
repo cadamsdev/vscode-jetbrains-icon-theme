@@ -10,6 +10,7 @@ Most icons are from [https://jetbrains.design/intellij/resources/icons_list/](ht
 ## Links
 [Marketplace](https://marketplace.visualstudio.com/items?itemName=chadalen.vscode-jetbrains-icon-theme)
 
+[Contributing](./docs/CONTRIBUTING.md)
 
 ## Themes
 
