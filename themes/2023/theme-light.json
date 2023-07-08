@@ -101,6 +101,9 @@
     },
     "file_terraform": {
       "iconPath": "./icons/terraform.svg"
+    },
+    "file_go": {
+      "iconPath": "./icons/go.svg"
     }
   },
   "file": "file_text",
@@ -159,6 +162,7 @@
     "tar": "file_archive",
     "toml": "file_toml",
     "py": "file_python",
-    "tf": "file_terraform"
+    "tf": "file_terraform",
+    "go": "file_go"
   }
 }
