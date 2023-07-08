@@ -98,6 +98,9 @@
     },
     "file_python": {
       "iconPath": "./icons/python.svg"
+    },
+    "file_terraform": {
+      "iconPath": "./icons/terraform.svg"
     }
   },
   "file": "file_text",
@@ -155,6 +158,7 @@
     "7z": "file_archive",
     "tar": "file_archive",
     "toml": "file_toml",
-    "py": "file_python"
+    "py": "file_python",
+    "tf": "file_terraform"
   }
 }
