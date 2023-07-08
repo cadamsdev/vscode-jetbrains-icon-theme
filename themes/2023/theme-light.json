@@ -110,6 +110,9 @@
     },
     "file_docker": {
       "iconPath": "./icons/docker.svg"
+    },
+    "file_actionscript": {
+      "iconPath": "./icons/actionScript.svg"
     }
   },
   "file": "file_text",
@@ -172,6 +175,7 @@
     "tf": "file_terraform",
     "go": "file_go",
     "http": "file_http",
-    "rest": "file_http"
+    "rest": "file_http",
+    "as": "file_actionscript"
   }
 }
