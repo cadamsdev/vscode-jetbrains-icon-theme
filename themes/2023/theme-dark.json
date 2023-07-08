@@ -92,6 +92,9 @@
     },
     "file_archive": {
       "iconPath": "./icons/archive_dark.svg"
+    },
+    "file_toml": {
+      "iconPath": "./icons/toml_dark.svg"
     }
   },
   "file": "file_text",
@@ -147,6 +150,7 @@
     "zip": "file_archive",
     "rar": "file_archive",
     "7z": "file_archive",
-    "tar": "file_archive"
+    "tar": "file_archive",
+    "toml": "file_toml"
   }
 }
