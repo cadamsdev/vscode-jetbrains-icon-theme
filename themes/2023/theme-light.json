@@ -104,6 +104,9 @@
     },
     "file_go": {
       "iconPath": "./icons/go.svg"
+    },
+    "file_http": {
+      "iconPath": "./icons/http.svg"
     }
   },
   "file": "file_text",
@@ -163,6 +166,8 @@
     "toml": "file_toml",
     "py": "file_python",
     "tf": "file_terraform",
-    "go": "file_go"
+    "go": "file_go",
+    "http": "file_http",
+    "rest": "file_http"
   }
 }
