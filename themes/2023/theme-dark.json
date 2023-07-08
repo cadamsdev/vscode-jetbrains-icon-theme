@@ -95,6 +95,9 @@
     },
     "file_toml": {
       "iconPath": "./icons/toml_dark.svg"
+    },
+    "file_python": {
+      "iconPath": "./icons/python.svg"
     }
   },
   "file": "file_text",
@@ -151,6 +154,7 @@
     "rar": "file_archive",
     "7z": "file_archive",
     "tar": "file_archive",
-    "toml": "file_toml"
+    "toml": "file_toml",
+    "py": "file_python"
   }
 }
