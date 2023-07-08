@@ -113,6 +113,9 @@
     },
     "file_actionscript": {
       "iconPath": "./icons/actionScript_dark.svg"
+    },
+    "file_php": {
+      "iconPath": "./icons/php_dark.svg"
     }
   },
   "file": "file_text",
@@ -176,6 +179,7 @@
     "go": "file_go",
     "http": "file_http",
     "rest": "file_http",
-    "as": "file_actionscript"
+    "as": "file_actionscript",
+    "php": "file_php"
   }
 }
