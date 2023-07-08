@@ -92,6 +92,30 @@
     },
     "file_archive": {
       "iconPath": "./icons/archive_dark.svg"
+    },
+    "file_toml": {
+      "iconPath": "./icons/toml_dark.svg"
+    },
+    "file_python": {
+      "iconPath": "./icons/python.svg"
+    },
+    "file_terraform": {
+      "iconPath": "./icons/terraform_dark.svg"
+    },
+    "file_go": {
+      "iconPath": "./icons/go_dark.svg"
+    },
+    "file_http": {
+      "iconPath": "./icons/http_dark.svg"
+    },
+    "file_docker": {
+      "iconPath": "./icons/docker_dark.svg"
+    },
+    "file_actionscript": {
+      "iconPath": "./icons/actionScript_dark.svg"
+    },
+    "file_php": {
+      "iconPath": "./icons/php_dark.svg"
     }
   },
   "file": "file_text",
@@ -102,7 +126,8 @@
     ".editorconfig": "file_editorconfig",
     "yarn.lock": "file_yarn",
     "README": "file_markdown",
-    ".dockerignore": "file_ignored"
+    ".dockerignore": "file_ignored",
+    "Dockerfile": "file_docker"
   },
   "fileExtensions": {
     "css": "file_css",
@@ -147,6 +172,14 @@
     "zip": "file_archive",
     "rar": "file_archive",
     "7z": "file_archive",
-    "tar": "file_archive"
+    "tar": "file_archive",
+    "toml": "file_toml",
+    "py": "file_python",
+    "tf": "file_terraform",
+    "go": "file_go",
+    "http": "file_http",
+    "rest": "file_http",
+    "as": "file_actionscript",
+    "php": "file_php"
   }
 }
