@@ -116,6 +116,9 @@
     },
     "file_php": {
       "iconPath": "./icons/php.svg"
+    },
+    "file_makefile": {
+      "iconPath": "./icons/makefile.svg"
     }
   },
   "file": "file_text",
@@ -127,7 +130,8 @@
     "yarn.lock": "file_yarn",
     "README": "file_markdown",
     ".dockerignore": "file_ignored",
-    "Dockerfile": "file_docker"
+    "Dockerfile": "file_docker",
+    "Makefile": "file_makefile"
   },
   "fileExtensions": {
     "css": "file_css",
