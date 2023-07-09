@@ -116,6 +116,15 @@
     },
     "file_php": {
       "iconPath": "./icons/php_dark.svg"
+    },
+    "file_makefile": {
+      "iconPath": "./icons/makefile_dark.svg"
+    },
+    "file_config": {
+      "iconPath": "./icons/config_dark.svg"
+    },
+    "file_any": {
+      "iconPath": "./icons/anyType_dark.svg"
     }
   },
   "file": "file_text",
@@ -127,7 +136,16 @@
     "yarn.lock": "file_yarn",
     "README": "file_markdown",
     ".dockerignore": "file_ignored",
-    "Dockerfile": "file_docker"
+    "Dockerfile": "file_docker",
+    "Makefile": "file_makefile",
+    ".env": "file_any",
+    ".env.local": "file_any",
+    ".env.test": "file_any",
+    ".env.development": "file_any",
+    ".env.production": "file_any",
+    ".env.test.local": "file_any",
+    ".env.development.local": "file_any",
+    ".env.production.local": "file_any"
   },
   "fileExtensions": {
     "css": "file_css",
@@ -180,6 +198,7 @@
     "http": "file_http",
     "rest": "file_http",
     "as": "file_actionscript",
-    "php": "file_php"
+    "php": "file_php",
+    "cfg": "file_config"
   }
 }
