@@ -119,6 +119,9 @@
     },
     "file_makefile": {
       "iconPath": "./icons/makefile_dark.svg"
+    },
+    "file_config": {
+      "iconPath": "./icons/config_dark.svg"
     }
   },
   "file": "file_text",
@@ -184,6 +187,7 @@
     "http": "file_http",
     "rest": "file_http",
     "as": "file_actionscript",
-    "php": "file_php"
+    "php": "file_php",
+    "cfg": "file_config"
   }
 }
