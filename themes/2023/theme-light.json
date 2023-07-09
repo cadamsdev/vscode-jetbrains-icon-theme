@@ -122,6 +122,9 @@
     },
     "file_config": {
       "iconPath": "./icons/config.svg"
+    },
+    "file_any": {
+      "iconPath": "./icons/anyType.svg"
     }
   },
   "file": "file_text",
@@ -134,7 +137,15 @@
     "README": "file_markdown",
     ".dockerignore": "file_ignored",
     "Dockerfile": "file_docker",
-    "Makefile": "file_makefile"
+    "Makefile": "file_makefile",
+    ".env": "file_any",
+    ".env.local": "file_any",
+    ".env.test": "file_any",
+    ".env.development": "file_any",
+    ".env.production": "file_any",
+    ".env.test.local": "file_any",
+    ".env.development.local": "file_any",
+    ".env.production.local": "file_any"
   },
   "fileExtensions": {
     "css": "file_css",
