@@ -125,6 +125,9 @@
     },
     "file_any": {
       "iconPath": "./icons/anyType.svg"
+    },
+    "file_svelte": {
+      "iconPath": "./icons/svelte.svg"
     }
   },
   "file": "file_text",
@@ -199,6 +202,7 @@
     "rest": "file_http",
     "as": "file_actionscript",
     "php": "file_php",
-    "cfg": "file_config"
+    "cfg": "file_config",
+    "svelte": "file_svelte"
   }
 }
