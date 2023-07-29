@@ -128,6 +128,9 @@
     },
     "file_svelte": {
       "iconPath": "./icons/svelte.svg"
+    },
+    "file_pnpm": {
+      "iconPath": "./icons/pnpm_dark.svg"
     }
   },
   "file": "file_text",
@@ -148,7 +151,8 @@
     ".env.production": "file_any",
     ".env.test.local": "file_any",
     ".env.development.local": "file_any",
-    ".env.production.local": "file_any"
+    ".env.production.local": "file_any",
+    "pnpm-lock.yaml": "file_pnpm"
   },
   "fileExtensions": {
     "css": "file_css",
