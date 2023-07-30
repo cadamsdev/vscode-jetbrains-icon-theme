@@ -137,6 +137,9 @@
     },
     "file_cargolock": {
       "iconPath": "./icons/cargoLock.svg"
+    },
+    "file_cmake": {
+      "iconPath": "./icons/CMake.svg"
     }
   },
   "file": "file_text",
@@ -159,7 +162,8 @@
     ".env.development.local": "file_any",
     ".env.production.local": "file_any",
     "Cargo.toml": "file_cargo",
-    "Cargo.lock": "file_cargolock"
+    "Cargo.lock": "file_cargolock",
+    "CMakeLists.txt": "file_cmake"
   },
   "fileExtensions": {
     "css": "file_css",
