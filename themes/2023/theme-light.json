@@ -128,6 +128,15 @@
     },
     "file_svelte": {
       "iconPath": "./icons/svelte.svg"
+    },
+    "file_rust": {
+      "iconPath": "./icons/rustFile.svg"
+    },
+    "file_cargo": {
+      "iconPath": "./icons/cargo.svg"
+    },
+    "file_cargolock": {
+      "iconPath": "./icons/cargoLock.svg"
     }
   },
   "file": "file_text",
@@ -148,7 +157,9 @@
     ".env.production": "file_any",
     ".env.test.local": "file_any",
     ".env.development.local": "file_any",
-    ".env.production.local": "file_any"
+    ".env.production.local": "file_any",
+    "Cargo.toml": "file_cargo",
+    "Cargo.lock": "file_cargolock"
   },
   "fileExtensions": {
     "css": "file_css",
@@ -203,6 +214,7 @@
     "as": "file_actionscript",
     "php": "file_php",
     "cfg": "file_config",
-    "svelte": "file_svelte"
+    "svelte": "file_svelte",
+    "rs": "file_rust"
   }
 }
