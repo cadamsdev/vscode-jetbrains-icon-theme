@@ -215,6 +215,9 @@
     },
     "file_type_cmake": {
       "iconPath": "./icons/cmake.svg"
+    },
+    "file_type_pnpm": {
+      "iconPath": "./icons/pnpm_dark.svg"
     }
   },
   "file": "file_type",
@@ -238,7 +241,8 @@
     ".prettierrc": "file_type_json",
     "postcss.config.cjs": "file_type_postcss",
     "postcss.config.js": "file_type_postcss",
-    "CMakeLists.txt": "file_type_cmake"
+    "CMakeLists.txt": "file_type_cmake",
+    "pnpm-lock.yaml": "file_type_pnpm"
   },
   "fileExtensions": {
     "css": "file_type_css",

@@ -140,6 +140,9 @@
     },
     "file_cmake": {
       "iconPath": "./icons/CMake_dark.svg"
+    },
+    "file_pnpm": {
+      "iconPath": "./icons/pnpm_dark.svg"
     }
   },
   "file": "file_text",
@@ -163,7 +166,8 @@
     ".env.production.local": "file_any",
     "Cargo.toml": "file_cargo",
     "Cargo.lock": "file_cargolock",
-    "CMakeLists.txt": "file_cmake"
+    "CMakeLists.txt": "file_cmake",
+    "pnpm-lock.yaml": "file_pnpm"
   },
   "fileExtensions": {
     "css": "file_css",
