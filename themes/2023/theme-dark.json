@@ -129,6 +129,18 @@
     "file_svelte": {
       "iconPath": "./icons/svelte.svg"
     },
+    "file_rust": {
+      "iconPath": "./icons/rustFile_dark.svg"
+    },
+    "file_cargo": {
+      "iconPath": "./icons/cargo_dark.svg"
+    },
+    "file_cargolock": {
+      "iconPath": "./icons/cargoLock_dark.svg"
+    },
+    "file_cmake": {
+      "iconPath": "./icons/CMake_dark.svg"
+    },
     "file_pnpm": {
       "iconPath": "./icons/pnpm_dark.svg"
     }
@@ -152,6 +164,9 @@
     ".env.test.local": "file_any",
     ".env.development.local": "file_any",
     ".env.production.local": "file_any",
+    "Cargo.toml": "file_cargo",
+    "Cargo.lock": "file_cargolock",
+    "CMakeLists.txt": "file_cmake",
     "pnpm-lock.yaml": "file_pnpm"
   },
   "fileExtensions": {
@@ -207,6 +222,7 @@
     "as": "file_actionscript",
     "php": "file_php",
     "cfg": "file_config",
-    "svelte": "file_svelte"
+    "svelte": "file_svelte",
+    "rs": "file_rust"
   }
 }
