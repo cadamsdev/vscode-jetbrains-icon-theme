@@ -155,6 +155,9 @@
     },
     "file_angular": {
       "iconPath": "./icons/angularJS.svg"
+    },
+    "file_eslint": {
+      "iconPath": "./icons/eslint.svg"
     }
   },
   "file": "file_text",
@@ -189,7 +192,12 @@
     "postcss.config.js": "file_postcss",
     "postcss.config.cjs": "file_postcss",
     "postcss.config.ts": "file_postcss",
-    "angular.json": "file_angular"
+    "angular.json": "file_angular",
+    ".eslintrc": "file_eslint",
+    ".eslintrc.cjs": "file_eslint",
+    ".eslintrc.js": "file_eslint",
+    ".eslintrc.ts": "file_eslint",
+    ".eslintignore": "file_eslint"
   },
   "fileExtensions": {
     "css": "file_css",
