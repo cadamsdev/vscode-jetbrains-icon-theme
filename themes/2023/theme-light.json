@@ -143,6 +143,9 @@
     },
     "file_pnpm": {
       "iconPath": "./icons/pnpm.svg"
+    },
+    "file_tailwind": {
+      "iconPath": "./icons/tailwind.svg"
     }
   },
   "file": "file_text",
@@ -167,7 +170,10 @@
     "Cargo.toml": "file_cargo",
     "Cargo.lock": "file_cargolock",
     "CMakeLists.txt": "file_cmake",
-    "pnpm-lock.yaml": "file_pnpm"
+    "pnpm-lock.yaml": "file_pnpm",
+    "tailwind.config.js": "file_tailwind",
+    "tailwind.config.cjs": "file_tailwind",
+    "tailwind.config.ts": "file_tailwind"
   },
   "fileExtensions": {
     "css": "file_css",
