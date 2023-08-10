@@ -149,6 +149,9 @@
     },
     "file_vite": {
       "iconPath": "./icons/vite_dark.svg"
+    },
+    "file_postcss": {
+      "iconPath": "./icons/postcss.svg"
     }
   },
   "file": "file_text",
@@ -179,7 +182,10 @@
     "tailwind.config.ts": "file_tailwind",
     "vite.config.js": "file_vite",
     "vite.config.cjs": "file_vite",
-    "vite.config.ts": "file_vite"
+    "vite.config.ts": "file_vite",
+    "postcss.config.js": "file_postcss",
+    "postcss.config.cjs": "file_postcss",
+    "postcss.config.ts": "file_postcss"
   },
   "fileExtensions": {
     "css": "file_css",
