@@ -180,6 +180,7 @@
     ".env.development.local": "file_any",
     ".env.production.local": "file_any",
     "Cargo.toml": "file_cargo",
+    "rust-toolchain.toml": "file_cargo",
     "Cargo.lock": "file_cargolock",
     "CMakeLists.txt": "file_cmake",
     "pnpm-lock.yaml": "file_pnpm",
