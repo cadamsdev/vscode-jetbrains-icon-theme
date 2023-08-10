@@ -146,6 +146,9 @@
     },
     "file_tailwind": {
       "iconPath": "./icons/tailwind.svg"
+    },
+    "file_vite": {
+      "iconPath": "./icons/vite.svg"
     }
   },
   "file": "file_text",
@@ -173,7 +176,10 @@
     "pnpm-lock.yaml": "file_pnpm",
     "tailwind.config.js": "file_tailwind",
     "tailwind.config.cjs": "file_tailwind",
-    "tailwind.config.ts": "file_tailwind"
+    "tailwind.config.ts": "file_tailwind",
+    "vite.config.js": "file_vite",
+    "vite.config.cjs": "file_vite",
+    "vite.config.ts": "file_vite"
   },
   "fileExtensions": {
     "css": "file_css",
