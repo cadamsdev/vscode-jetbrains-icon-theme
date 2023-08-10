@@ -152,6 +152,9 @@
     },
     "file_postcss": {
       "iconPath": "./icons/postcss.svg"
+    },
+    "file_angular": {
+      "iconPath": "./icons/angularJS.svg"
     }
   },
   "file": "file_text",
@@ -185,7 +188,8 @@
     "vite.config.ts": "file_vite",
     "postcss.config.js": "file_postcss",
     "postcss.config.cjs": "file_postcss",
-    "postcss.config.ts": "file_postcss"
+    "postcss.config.ts": "file_postcss",
+    "angular.json": "file_angular"
   },
   "fileExtensions": {
     "css": "file_css",
