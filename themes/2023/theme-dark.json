@@ -158,6 +158,15 @@
     },
     "file_eslint": {
       "iconPath": "./icons/eslint.svg"
+    },
+    "file_cs": {
+      "iconPath": "./icons/cs_dark.svg"
+    },
+    "file_cshtml": {
+      "iconPath": "./icons/cshtml_dark.svg"
+    },
+    "file_csproj": {
+      "iconPath": "./icons/csproj_dark.svg"
     }
   },
   "file": "file_text",
@@ -254,6 +263,9 @@
     "php": "file_php",
     "cfg": "file_config",
     "svelte": "file_svelte",
-    "rs": "file_rust"
+    "rs": "file_rust",
+    "cs": "file_cs",
+    "cshtml": "file_cshtml",
+    "csproj": "file_csproj"
   }
 }
