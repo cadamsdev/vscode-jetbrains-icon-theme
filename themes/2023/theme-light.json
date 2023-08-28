@@ -226,6 +226,7 @@
     "png": "file_image",
     "webp": "file_image",
     "jpg": "file_image",
+    "jpeg": "file_image",
     "gif": "file_image",
     "ico": "file_image",
     "svg": "file_image",
