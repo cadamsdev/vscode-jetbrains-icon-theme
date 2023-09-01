@@ -210,6 +210,7 @@
     ".eslintrc.cjs": "file_eslint",
     ".eslintrc.js": "file_eslint",
     ".eslintrc.ts": "file_eslint",
+    ".eslintrc.json": "file_eslint",
     ".eslintrc.yml": "file_eslint",
     ".eslintrc.yaml": "file_eslint",
     ".eslintignore": "file_eslint"
