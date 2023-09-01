@@ -57,6 +57,9 @@
     "file_java": {
       "iconPath": "./icons/java_dark.svg"
     },
+    "file_class": {
+      "iconPath": "./icons/class_dark.svg"
+    },
     "file_xml": {
       "iconPath": "./icons/xml_dark.svg"
     },
@@ -242,6 +245,7 @@
     "yaml": "file_yaml",
     "yml": "file_yaml",
     "java": "file_java",
+    "class": "file_class",
     "xml": "file_xml",
     "sql": "file_sql",
     "md": "file_markdown",
