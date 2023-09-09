@@ -15,6 +15,9 @@
     "file_css": {
       "iconPath": "./icons/css.svg"
     },
+    "file_erb": {
+      "iconPath": "./icons/erbFile_dark.svg"
+    },
     "file_scss": {
       "iconPath": "./icons/scss.svg"
     },
@@ -26,6 +29,15 @@
     },
     "file_react": {
       "iconPath": "./icons/react_dark.svg"
+    },
+    "file_ruby": {
+      "iconPath": "./icons/dark_ruby.svg"
+    },
+    "file_rake": {
+      "iconPath": "./icons/rakeTask_dark.svg"
+    },
+    "file_gemfile": {
+      "iconPath": "./icons/rubyGems_dark.svg"
     },
     "file_less": {
       "iconPath": "./icons/less_dark.svg"
@@ -62,6 +74,9 @@
     },
     "file_sql": {
       "iconPath": "./icons/sql_dark.svg"
+    },
+    "file_slim": {
+      "iconPath": "./icons/slim_dark.svg"
     },
     "file_yarn": {
       "iconPath": "./icons/yarn.svg"
@@ -180,10 +195,16 @@
     "README": "file_markdown",
     ".dockerignore": "file_ignored",
     "Dockerfile": "file_docker",
+    "Dockerfile.test": "file_docker",
+    "Dockerfile.staging": "file_docker",
+    "Dockerfile.production": "file_docker",
+    "Gemfile": "file_gemfile",
+    "Gemfile.lock": "file_gemfile",
     "Makefile": "file_makefile",
     ".env": "file_any",
     ".env.local": "file_any",
     ".env.test": "file_any",
+    ".env.example": "file_any",
     ".env.development": "file_any",
     ".env.production": "file_any",
     ".env.test.local": "file_any",
@@ -212,6 +233,7 @@
   },
   "fileExtensions": {
     "css": "file_css",
+    "erb": "file_erb",
     "scss": "file_scss",
     "sass": "file_scss",
     "kt": "file_kotlin",
@@ -219,6 +241,8 @@
     "html": "file_html",
     "jsx": "file_react",
     "tsx": "file_react",
+    "rake": "file_rake",
+    "rb": "file_ruby",
     "less": "file_less",
     "js": "file_javascript",
     "cjs": "file_javascript",
@@ -268,7 +292,10 @@
     "as": "file_actionscript",
     "php": "file_php",
     "cfg": "file_config",
+    "conf": "file_config",
+    "cnf": "file_config",
     "svelte": "file_svelte",
+    "slim": "file_slim",
     "rs": "file_rust",
     "cs": "file_cs",
     "cshtml": "file_cshtml",
