@@ -15,6 +15,9 @@
     "file_css": {
       "iconPath": "./icons/css.svg"
     },
+    "file_erb": {
+      "iconPath": "./icons/erbFile_dark.svg"
+    },
     "file_scss": {
       "iconPath": "./icons/scss.svg"
     },
@@ -26,6 +29,15 @@
     },
     "file_react": {
       "iconPath": "./icons/react_dark.svg"
+    },
+    "file_ruby": {
+      "iconPath": "./icons/dark_ruby.svg"
+    },
+    "file_rake": {
+      "iconPath": "./icons/rakeTask_dark.svg"
+    },
+    "file_gemfile": {
+      "iconPath": "./icons/rubyGems_dark.svg"
     },
     "file_less": {
       "iconPath": "./icons/less_dark.svg"
@@ -62,6 +74,9 @@
     },
     "file_sql": {
       "iconPath": "./icons/sql_dark.svg"
+    },
+    "file_slim": {
+      "iconPath": "./icons/slim_dark.svg"
     },
     "file_yarn": {
       "iconPath": "./icons/yarn.svg"
@@ -175,15 +190,23 @@
   "fileNames": {
     ".gitignore": "file_gitignore",
     ".gitattributes": "file_gitignore",
+    ".gitmodules": "file_gitignore",
     ".editorconfig": "file_editorconfig",
+    ".yarnrc": "file_yarn",
     "yarn.lock": "file_yarn",
     "README": "file_markdown",
     ".dockerignore": "file_ignored",
     "Dockerfile": "file_docker",
+    "Dockerfile.test": "file_docker",
+    "Dockerfile.staging": "file_docker",
+    "Dockerfile.production": "file_docker",
+    "Gemfile": "file_gemfile",
+    "Gemfile.lock": "file_gemfile",
     "Makefile": "file_makefile",
     ".env": "file_any",
     ".env.local": "file_any",
     ".env.test": "file_any",
+    ".env.example": "file_any",
     ".env.development": "file_any",
     ".env.production": "file_any",
     ".env.test.local": "file_any",
@@ -194,6 +217,7 @@
     "Cargo.lock": "file_cargolock",
     "CMakeLists.txt": "file_cmake",
     "pnpm-lock.yaml": "file_pnpm",
+    "pnpm-workspace.yaml": "file_pnpm",
     "tailwind.config.js": "file_tailwind",
     "tailwind.config.cjs": "file_tailwind",
     "tailwind.config.ts": "file_tailwind",
@@ -208,10 +232,14 @@
     ".eslintrc.cjs": "file_eslint",
     ".eslintrc.js": "file_eslint",
     ".eslintrc.ts": "file_eslint",
+    ".eslintrc.json": "file_eslint",
+    ".eslintrc.yml": "file_eslint",
+    ".eslintrc.yaml": "file_eslint",
     ".eslintignore": "file_eslint"
   },
   "fileExtensions": {
     "css": "file_css",
+    "erb": "file_erb",
     "scss": "file_scss",
     "sass": "file_scss",
     "kt": "file_kotlin",
@@ -219,6 +247,8 @@
     "html": "file_html",
     "jsx": "file_react",
     "tsx": "file_react",
+    "rake": "file_rake",
+    "rb": "file_ruby",
     "less": "file_less",
     "js": "file_javascript",
     "cjs": "file_javascript",
@@ -250,9 +280,13 @@
     "zsh": "file_shell",
     "bash": "file_shell",
     "h": "file_h",
+    "hh": "file_h",
     "hpp": "file_h",
+    "hxx": "file_h",
     "c": "file_c",
+    "cc": "file_cpp",
     "cpp": "file_cpp",
+    "cxx": "file_cpp",
     "scala": "file_scala",
     "gz": "file_archive",
     "zip": "file_archive",
@@ -268,7 +302,10 @@
     "as": "file_actionscript",
     "php": "file_php",
     "cfg": "file_config",
+    "conf": "file_config",
+    "cnf": "file_config",
     "svelte": "file_svelte",
+    "slim": "file_slim",
     "rs": "file_rust",
     "cs": "file_cs",
     "cshtml": "file_cshtml",
