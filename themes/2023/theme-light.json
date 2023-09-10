@@ -15,6 +15,9 @@
     "file_css": {
       "iconPath": "./icons/css.svg"
     },
+    "file_erb": {
+      "iconPath": "./icons/erbFile.svg"
+    },
     "file_scss": {
       "iconPath": "./icons/scss.svg"
     },
@@ -26,6 +29,15 @@
     },
     "file_react": {
       "iconPath": "./icons/react.svg"
+    },
+    "file_ruby": {
+      "iconPath": "./icons/ruby.svg"
+    },
+    "file_rake": {
+      "iconPath": "./icons/rakeTask.svg"
+    },
+    "file_gemfile": {
+      "iconPath": "./icons/rubyGems.svg"
     },
     "file_less": {
       "iconPath": "./icons/less.svg"
@@ -62,6 +74,9 @@
     },
     "file_sql": {
       "iconPath": "./icons/sql.svg"
+    },
+    "file_slim": {
+      "iconPath": "./icons/slim.svg"
     },
     "file_yarn": {
       "iconPath": "./icons/yarn.svg"
@@ -182,10 +197,16 @@
     "README": "file_markdown",
     ".dockerignore": "file_ignored",
     "Dockerfile": "file_docker",
+    "Dockerfile.test": "file_docker",
+    "Dockerfile.staging": "file_docker",
+    "Dockerfile.production": "file_docker",
+    "Gemfile": "file_gemfile",
+    "Gemfile.lock": "file_gemfile",
     "Makefile": "file_makefile",
     ".env": "file_any",
     ".env.local": "file_any",
     ".env.test": "file_any",
+    ".env.example": "file_any",
     ".env.development": "file_any",
     ".env.production": "file_any",
     ".env.test.local": "file_any",
@@ -219,12 +240,15 @@
   "fileExtensions": {
     "css": "file_css",
     "scss": "file_scss",
+    "erb": "file_erb",
     "sass": "file_scss",
     "kt": "file_kotlin",
     "json": "file_json",
     "html": "file_html",
     "jsx": "file_react",
     "tsx": "file_react",
+    "rake": "file_rake",
+    "rb": "file_ruby",
     "less": "file_less",
     "js": "file_javascript",
     "cjs": "file_javascript",
@@ -278,7 +302,10 @@
     "as": "file_actionscript",
     "php": "file_php",
     "cfg": "file_config",
+    "conf": "file_config",
+    "cnf": "file_config",
     "svelte": "file_svelte",
+    "slim": "file_slim",
     "rs": "file_rust",
     "cs": "file_cs",
     "cshtml": "file_cshtml",
