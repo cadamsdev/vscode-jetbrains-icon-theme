@@ -176,6 +176,7 @@
     ".gitignore": "file_gitignore",
     ".gitattributes": "file_gitignore",
     ".editorconfig": "file_editorconfig",
+    ".yarnrc": "file_yarn",
     "yarn.lock": "file_yarn",
     "README": "file_markdown",
     ".dockerignore": "file_ignored",
@@ -194,6 +195,7 @@
     "Cargo.lock": "file_cargolock",
     "CMakeLists.txt": "file_cmake",
     "pnpm-lock.yaml": "file_pnpm",
+    "pnpm-workspace.yaml": "file_pnpm",
     "tailwind.config.js": "file_tailwind",
     "tailwind.config.cjs": "file_tailwind",
     "tailwind.config.ts": "file_tailwind",
@@ -208,6 +210,9 @@
     ".eslintrc.cjs": "file_eslint",
     ".eslintrc.js": "file_eslint",
     ".eslintrc.ts": "file_eslint",
+    ".eslintrc.json": "file_eslint",
+    ".eslintrc.yml": "file_eslint",
+    ".eslintrc.yaml": "file_eslint",
     ".eslintignore": "file_eslint"
   },
   "fileExtensions": {
