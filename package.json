@@ -10,6 +10,7 @@
   },
   "version": "1.1.0",
   "scripts": {
+    "prebuild": "node ./scripts/build-auto-theme.mjs",
     "build": "vsce package"
   },
   "license": "MIT",
@@ -56,6 +57,11 @@
         "id": "vscode-jetbrains-icon-theme-2023-dark",
         "label": "JetBrains Icon Theme 2023+ UI Dark",
         "path": "./themes/2023/theme-dark.json"
+      },
+      {
+        "id": "vscode-jetbrains-icon-theme-2023-auto",
+        "label": "JetBrains Icon Theme 2023+ UI Auto",
+        "path": "./themes/2023/theme-auto.json"
       }
     ]
   },
@@ -66,6 +72,7 @@
     "@semantic-release/release-notes-generator": "^11.0.3",
     "@vscode/vsce": "^2.19.0",
     "semantic-release": "^21.0.6",
-    "semantic-release-vsce": "^5.5.10"
+    "semantic-release-vsce": "^5.5.10",
+    "svgson": "^5.3.1"
   }
 }
