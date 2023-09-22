@@ -123,6 +123,9 @@
     "file_http": {
       "iconPath": "./icons/http_dark.svg"
     },
+    "file_dart": {
+      "iconPath": "./icons/dart_dark.svg"
+    },
     "file_docker": {
       "iconPath": "./icons/docker_dark.svg"
     },
@@ -239,6 +242,7 @@
   },
   "fileExtensions": {
     "css": "file_css",
+    "dart": "file_dart",
     "erb": "file_erb",
     "scss": "file_scss",
     "sass": "file_scss",
