@@ -1,8 +1,3 @@
-export interface Theme {
-  iconDefinitions: { [key: string]: { iconPath: string } };
-  file:            string;
-  folder:          string;
-  folderNames:     { [key: string]: string };
-  fileNames:       { [key: string]: string };
-  fileExtensions:  { [key: string]: string };
-}
+import lightTheme from "../../../assets/2023/theme-light.json";
+
+type Theme = typeof lightTheme;

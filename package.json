@@ -10,7 +10,7 @@
   },
   "version": "1.1.0",
   "scripts": {
-    "prebuild": "node ./scripts/build/build.mjs",
+    "prebuild": "tsx ./scripts/build/build.ts",
     "build": "vsce package"
   },
   "license": "MIT",
@@ -70,8 +70,12 @@
     "@semantic-release/github": "^9.0.3",
     "@semantic-release/npm": "^10.0.4",
     "@semantic-release/release-notes-generator": "^11.0.3",
+    "@types/node": "^20.8.0",
     "@vscode/vsce": "^2.19.0",
     "semantic-release": "^21.0.6",
-    "semantic-release-vsce": "^5.5.10"
+    "semantic-release-vsce": "^5.5.10",
+    "svgson": "^5.3.1",
+    "tsx": "^3.13.0",
+    "typescript": "^5.2.2"
   }
 }

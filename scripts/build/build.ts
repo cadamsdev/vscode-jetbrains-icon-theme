@@ -3,9 +3,9 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
 
-import { SRC_DIR_PATH, BUILD_DIR_PATH } from "./constants.mjs";
-import { buildTheme } from "./utils/build-theme.mjs";
-import { generate2023AutoTheme } from "./generator/generate-2023-auto-theme.mjs";
+import { SRC_DIR_PATH, BUILD_DIR_PATH } from "./constants.js";
+import { generate2023AutoTheme } from "./generators/generate-2023-auto-theme";
+import { buildTheme } from "./utils/build-theme.js";
 
 // Here is the mapping of the source theme directory to the build theme directory.
 //
@@ -16,16 +16,25 @@ import { generate2023AutoTheme } from "./generator/generate-2023-auto-theme.mjs"
 
 // STEP 1: Remove existing build directory.
 if (fs.existsSync(BUILD_DIR_PATH)) {
-  fs.rmSync(BUILD_DIR_PATH, { recursive: true })
+  fs.rmSync(BUILD_DIR_PATH, { recursive: true });
 }
 
 // STEP 2: Create build directory.
-fs.mkdirSync(BUILD_DIR_PATH, { recursive: true })
+fs.mkdirSync(BUILD_DIR_PATH, { recursive: true });
 
 // STEP 3: Build themes.
-buildTheme(path.join(SRC_DIR_PATH, 'v1', 'theme-dark.json'), path.join(BUILD_DIR_PATH, 'v1', 'dark'))
-buildTheme(path.join(SRC_DIR_PATH, '2023', 'theme-light.json'), path.join(BUILD_DIR_PATH, '2023', 'light'))
-buildTheme(path.join(SRC_DIR_PATH, '2023', 'theme-dark.json'), path.join(BUILD_DIR_PATH, '2023', 'dark'))
+buildTheme(
+  path.join(SRC_DIR_PATH, "v1", "theme-dark.json"),
+  path.join(BUILD_DIR_PATH, "v1", "dark"),
+);
+buildTheme(
+  path.join(SRC_DIR_PATH, "2023", "theme-light.json"),
+  path.join(BUILD_DIR_PATH, "2023", "light"),
+);
+buildTheme(
+  path.join(SRC_DIR_PATH, "2023", "theme-dark.json"),
+  path.join(BUILD_DIR_PATH, "2023", "dark"),
+);
 
 // STEP 4: Generate 2023 auto theme.
 generate2023AutoTheme(

@@ -1,15 +1,9 @@
-import * as fs from "node:fs";
-import * as path from "node:path";
+import * as fs from "fs";
+import * as path from "path";
 
-import { SRC_DIR_PATH } from "../constants.mjs";
-import { getIconPaths } from "./get-icon-paths.mjs";
+import { getIconPaths } from "./get-icon-paths";
 
-/**
- * Build a theme.
- * @param {string} themePath The path to the theme.
- * @param {string} buildPath The path to the build directory.
- */
-export function buildTheme(themePath, buildPath) {
+export function buildTheme(themePath: string, buildPath: string) {
   const theme = JSON.parse(fs.readFileSync(themePath, "utf-8"));
   const iconPaths = getIconPaths(theme, themePath);
 
@@ -17,7 +11,7 @@ export function buildTheme(themePath, buildPath) {
 
   fs.writeFileSync(
     path.join(buildPath, "theme.json"),
-    JSON.stringify(theme, null, 4)
+    JSON.stringify(theme, null, 4),
   );
 
   iconPaths.forEach((iconPath) => {
@@ -28,7 +22,7 @@ export function buildTheme(themePath, buildPath) {
 
     const buildIconPath = path.join(
       buildPath,
-      path.relative(path.dirname(themePath), iconPath)
+      path.relative(path.dirname(themePath), iconPath),
     );
 
     fs.mkdirSync(path.dirname(buildIconPath), { recursive: true });
