@@ -7,6 +7,8 @@ Icon theme extension for [Visual Studio Code](https://code.visualstudio.com/) th
 
 Most icons are from [https://jetbrains.design/intellij/resources/icons_list/](https://jetbrains.design/intellij/resources/icons_list/).
 
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/cadamsdev)
+
 ## Links
 [Marketplace](https://marketplace.visualstudio.com/items?itemName=chadalen.vscode-jetbrains-icon-theme)
 
