@@ -185,6 +185,15 @@
     },
     "file_csproj": {
       "iconPath": "./icons/csproj.svg"
+    },
+    "file_elixir": {
+      "iconPath": "./icons/elixir.svg"
+    },
+    "file_beam": {
+      "iconPath": "./icons/beam.svg"
+    },
+    "file_embedded_elixir": {
+      "iconPath": "./icons/eex.svg"
     }
   },
   "file": "file_text",
@@ -313,6 +322,11 @@
     "rs": "file_rust",
     "cs": "file_cs",
     "cshtml": "file_cshtml",
-    "csproj": "file_csproj"
+    "csproj": "file_csproj",
+    "ex" : "file_elixir",
+    "exs" : "file_elixir",
+    "eex" : "file_embedded_elixir",
+    "leex" : "file_embedded_elixir",
+    "beam" : "file_beam"
   }
 }
