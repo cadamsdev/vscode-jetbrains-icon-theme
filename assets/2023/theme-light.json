@@ -326,6 +326,7 @@
     "ex" : "file_elixir",
     "exs" : "file_elixir",
     "eex" : "file_embedded_elixir",
+    "heex" : "file_embedded_elixir",
     "leex" : "file_embedded_elixir",
     "beam" : "file_beam"
   }
