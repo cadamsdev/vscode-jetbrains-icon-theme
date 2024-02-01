@@ -209,8 +209,10 @@
     "README": "file_markdown",
     ".dockerignore": "file_ignored",
     "Dockerfile": "file_docker",
+    "Dockerfile.dev": "file_docker",
     "Dockerfile.test": "file_docker",
     "Dockerfile.staging": "file_docker",
+    "Dockerfile.prod": "file_docker",
     "Dockerfile.production": "file_docker",
     "Gemfile": "file_gemfile",
     "Gemfile.lock": "file_gemfile",
@@ -323,11 +325,12 @@
     "cs": "file_cs",
     "cshtml": "file_cshtml",
     "csproj": "file_csproj",
-    "ex" : "file_elixir",
-    "exs" : "file_elixir",
-    "eex" : "file_embedded_elixir",
-    "heex" : "file_embedded_elixir",
-    "leex" : "file_embedded_elixir",
-    "beam" : "file_beam"
+    "ex": "file_elixir",
+    "exs": "file_elixir",
+    "eex": "file_embedded_elixir",
+    "heex": "file_embedded_elixir",
+    "leex": "file_embedded_elixir",
+    "beam": "file_beam",
+    "dockerfile": "file_docker"
   }
 }
