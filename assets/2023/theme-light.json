@@ -194,6 +194,9 @@
     },
     "file_embedded_elixir": {
       "iconPath": "./icons/eex.svg"
+    },
+    "file_swift": {
+      "iconPath": "./icons/swift.svg"
     }
   },
   "file": "file_text",
@@ -331,6 +334,7 @@
     "heex": "file_embedded_elixir",
     "leex": "file_embedded_elixir",
     "beam": "file_beam",
-    "dockerfile": "file_docker"
+    "dockerfile": "file_docker",
+    "swift": "file_swift"
   }
 }

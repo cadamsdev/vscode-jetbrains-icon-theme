@@ -218,6 +218,9 @@
     },
     "file_type_pnpm": {
       "iconPath": "./icons/pnpm_dark.svg"
+    },
+    "file_type_swift": {
+      "iconPath": "./icons/swift.svg"
     }
   },
   "file": "file_type",
@@ -338,6 +341,7 @@
     "graphqls": "file_type_graphql",
     "html.erb": "file_type_erb",
     "lua": "file_type_lua",
-    "proto": "file_type_proto"
+    "proto": "file_type_proto",
+    "swift": "file_type_swift"
   }
 }
