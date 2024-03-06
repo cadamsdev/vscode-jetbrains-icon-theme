@@ -197,6 +197,9 @@
     },
     "file_swift": {
       "iconPath": "./icons/swift.svg"
+    },
+    "file_clojure": {
+      "iconPath": "./icons/clojure.svg"
     }
   },
   "file": "file_text",
@@ -335,6 +338,10 @@
     "leex": "file_embedded_elixir",
     "beam": "file_beam",
     "dockerfile": "file_docker",
-    "swift": "file_swift"
+    "swift": "file_swift",
+    "cljc": "file_clojure",
+    "cljs": "file_clojure",
+    "clj": "file_clojure",
+    "edn": "file_clojure"
   }
 }
