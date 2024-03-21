@@ -120,6 +120,9 @@
     "file_go": {
       "iconPath": "./icons/go.svg"
     },
+    "file_gomodsum": {
+      "iconPath": "./icons/gomodsum.svg"
+    },
     "file_http": {
       "iconPath": "./icons/http.svg"
     },
@@ -200,6 +203,18 @@
     },
     "file_clojure": {
       "iconPath": "./icons/clojure.svg"
+    },
+    "file_protobuf": {
+      "iconPath": "./icons/protobuf.svg"
+    },
+    "file_hcl": {
+      "iconPath": "./icons/hcl_light.svg"
+    },
+    "file_rego": {
+      "iconPath": "./icons/rego.svg"
+    },
+    "file_application": {
+      "iconPath": "./icons/application.svg"
     }
   },
   "file": "file_text",
@@ -255,7 +270,9 @@
     ".eslintrc.json": "file_eslint",
     ".eslintrc.yml": "file_eslint",
     ".eslintrc.yaml": "file_eslint",
-    ".eslintignore": "file_eslint"
+    ".eslintignore": "file_eslint",
+    "go.mod": "file_gomodsum",
+    "go.sum": "file_gomodsum"
   },
   "fileExtensions": {
     "dart": "file_dart",
@@ -342,6 +359,10 @@
     "cljc": "file_clojure",
     "cljs": "file_clojure",
     "clj": "file_clojure",
-    "edn": "file_clojure"
+    "edn": "file_clojure",
+    "proto": "file_protobuf",
+    "hcl": "file_hcl",
+    "rego": "file_rego",
+    "exe": "file_application"
   }
 }
