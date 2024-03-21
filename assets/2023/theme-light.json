@@ -215,6 +215,21 @@
     },
     "file_application": {
       "iconPath": "./icons/application.svg"
+    },
+    "file_jupyter": {
+      "iconPath": "./icons/jupyter.svg"
+    },
+    "file_mdx": {
+      "iconPath": "./icons/mdx.svg"
+    },
+    "file_erlang": {
+      "iconPath": "./icons/erlang.svg"
+    },
+    "file_lua": {
+      "iconPath": "./icons/lua.svg"
+    },
+    "file_haskell": {
+      "iconPath": "./icons/haskell.svg"
     }
   },
   "file": "file_text",
@@ -363,6 +378,11 @@
     "proto": "file_protobuf",
     "hcl": "file_hcl",
     "rego": "file_rego",
-    "exe": "file_application"
+    "exe": "file_application",
+    "ipynb": "file_jupyter",
+    "mdx": "file_mdx",
+    "erl": "file_erlang",
+    "lua": "file_lua",
+    "hs":"file_haskell"
   }
 }
