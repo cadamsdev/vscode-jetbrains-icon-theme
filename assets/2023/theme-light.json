@@ -87,6 +87,9 @@
     "file_gitignore": {
       "iconPath": "./icons/gitignore.svg"
     },
+    "file_gleam": {
+      "iconPath": "./icons/gleam.svg"
+    },
     "file_properties": {
       "iconPath": "./icons/properties.svg"
     },
@@ -316,6 +319,7 @@
     "jpg": "file_image",
     "jpeg": "file_image",
     "gif": "file_image",
+    "gleam": "file_gleam",
     "ico": "file_image",
     "svg": "file_image",
     "ttf": "file_font",
