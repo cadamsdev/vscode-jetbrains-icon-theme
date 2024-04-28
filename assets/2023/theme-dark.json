@@ -233,6 +233,9 @@
     },
     "file_haskell": {
       "iconPath": "./icons/haskell.svg"
+    },
+    "file_graphql": {
+      "iconPath": "./icons/graphql.svg"
     }
   },
   "file": "file_text",
@@ -387,6 +390,7 @@
     "mdx": "file_mdx",
     "erl": "file_erlang",
     "lua": "file_lua",
-    "hs":"file_haskell"
+    "hs": "file_haskell",
+    "graphql": "file_graphql"
   }
 }
