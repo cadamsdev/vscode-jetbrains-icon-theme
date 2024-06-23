@@ -233,6 +233,9 @@
     },
     "file_haskell": {
       "iconPath": "./icons/haskell.svg"
+    },
+    "file_graphql": {
+      "iconPath": "./icons/graphql.svg"
     }
   },
   "file": "file_text",
@@ -242,6 +245,7 @@
     ".gitignore": "file_gitignore",
     ".gitattributes": "file_gitignore",
     ".gitmodules": "file_gitignore",
+    ".gitkeep": "file_gitignore",
     ".editorconfig": "file_editorconfig",
     ".yarnrc": "file_yarn",
     "yarn.lock": "file_yarn",
@@ -387,6 +391,7 @@
     "mdx": "file_mdx",
     "erl": "file_erlang",
     "lua": "file_lua",
-    "hs":"file_haskell"
+    "hs": "file_haskell",
+    "graphql": "file_graphql"
   }
 }
