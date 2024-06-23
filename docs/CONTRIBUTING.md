@@ -15,8 +15,3 @@
 5. To test the new icon, run in terminal `npm run build`. This should create a *.vsix file. In VSCode right click on that file click "Install Extension VSIX".
    - Once that is installed, change the icon theme to the theme that has your new icon. e.g mac Command + Shift + P -> Preferences: File Icon Theme -> e.g JetBrains Icon Theme 2023+ UI Dark
    - Create an empty file with the file name or file extension to verify your icon shows up.
-
-## Commit messages
-
-- We use [semantic-release](https://semantic-release.gitbook.io/semantic-release/), so please follow their commit message format as documented [here](https://semantic-release.gitbook.io/semantic-release/#commit-message-format).
-  - Prefix your commits with feat:, fix:, chore: etc (see [here](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#type))
