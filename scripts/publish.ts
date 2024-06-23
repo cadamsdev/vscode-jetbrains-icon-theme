@@ -15,8 +15,7 @@ function publish() {
     execSync('npm run package', { stdio: 'inherit' });
 
     // publish package
-    // execSync(`npx vsce publish ${semver}`, { stdio: 'inherit' });
-    execSync('npx vsce ls', { stdio: 'inherit' });
+    execSync(`npx vsce publish ${semver}`, { stdio: 'inherit' });
   } catch (error) {
     core.setFailed(`Failed to create package: ${error.message}`);
   }
