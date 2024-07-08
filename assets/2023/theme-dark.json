@@ -356,6 +356,8 @@
     "tar": "file_archive",
     "toml": "file_toml",
     "py": "file_python",
+    "pyi": "file_python",
+    "pyc": "file_python",
     "tf": "file_terraform",
     "go": "file_go",
     "http": "file_http",
