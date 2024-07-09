@@ -340,6 +340,8 @@
     "sh": "file_shell",
     "zsh": "file_shell",
     "bash": "file_shell",
+    "bat": "file_shell",
+    "ps1": "file_shell",
     "h": "file_h",
     "hh": "file_h",
     "hpp": "file_h",
