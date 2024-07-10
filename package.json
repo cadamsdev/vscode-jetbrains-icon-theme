@@ -8,7 +8,7 @@
     "email": "me@chadalen.com",
     "url": "https://cadamsdev.com"
   },
-  "version": "2.19.0",
+  "version": "2.20.0",
   "scripts": {
     "prebuild": "tsx ./scripts/build/build.ts",
     "package": "vsce package"
