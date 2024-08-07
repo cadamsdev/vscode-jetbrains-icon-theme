@@ -380,6 +380,7 @@
     "php": "file_php",
     "cfg": "file_config",
     "conf": "file_config",
+    "config": "file_config",
     "cnf": "file_config",
     "svelte": "file_svelte",
     "slim": "file_slim",
