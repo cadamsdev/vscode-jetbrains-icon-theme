@@ -78,6 +78,9 @@
     "file_slim": {
       "iconPath": "./icons/slim_dark.svg"
     },
+    "file_sln": {
+      "iconPath": "./icons/solution_dark.svg"
+    },
     "file_yarn": {
       "iconPath": "./icons/yarn.svg"
     },
@@ -236,6 +239,9 @@
     },
     "file_graphql": {
       "iconPath": "./icons/graphql.svg"
+    },
+    "file_buildprops": {
+      "iconPath": "./icons/projectProperties_dark.svg"
     }
   },
   "file": "file_text",
@@ -294,7 +300,8 @@
     ".eslintrc.yaml": "file_eslint",
     ".eslintignore": "file_eslint",
     "go.mod": "file_gomodsum",
-    "go.sum": "file_gomodsum"
+    "go.sum": "file_gomodsum",
+    "Directory.Build.props": "file_buildprops"
   },
   "fileExtensions": {
     "css": "file_css",
@@ -373,9 +380,11 @@
     "php": "file_php",
     "cfg": "file_config",
     "conf": "file_config",
+    "config": "file_config",
     "cnf": "file_config",
     "svelte": "file_svelte",
     "slim": "file_slim",
+    "sln": "file_sln",
     "rs": "file_rust",
     "cs": "file_cs",
     "cshtml": "file_cshtml",
