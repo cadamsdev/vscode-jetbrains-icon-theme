@@ -200,12 +200,26 @@
     },
     "file_clojure": {
       "iconPath": "./icons/clojure.svg"
+    },
+    "file_ml": {
+      "iconPath": "./icons/ml.svg"
+    },
+    "file_mli": {
+      "iconPath": "./icons/mli.svg"
+    },
+    "file_dune": {
+      "iconPath": "./icons/dune.svg"
+    },
+    "file_opam": {
+      "iconPath": "./icons/opam.svg"
     }
   },
   "file": "file_text",
   "folder": "folder",
   "folderNames": {},
   "fileNames": {
+    "dune": "file_dune",
+    "dune-project": "file_dune",
     ".gitignore": "file_gitignore",
     ".gitattributes": "file_gitignore",
     ".gitmodules": "file_gitignore",
@@ -258,6 +272,9 @@
     ".eslintignore": "file_eslint"
   },
   "fileExtensions": {
+    "ml": "file_ml",
+    "mli": "file_mli",
+    "opam": "file_opam",
     "dart": "file_dart",
     "css": "file_css",
     "scss": "file_scss",
