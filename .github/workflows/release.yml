@@ -1,0 +1,42 @@
+name: Release
+on:
+  workflow_dispatch:
+    inputs:
+      semver:
+        description: 'The semver increment'
+        required: true
+        default: 'patch'
+        type: choice
+        options:
+          - 'major'
+          - 'minor'
+          - 'patch'
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Set git user
+      run: |
+        git config --global user.name "cadamsdev"
+        git config --global user.email "cadamsdev@outlook.com"
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Prebuild
+      run: npm run prebuild
+
+    - name: Bump version
+      id: version
+      run: npx tsx ./scripts/bump-version.ts ${{ github.event.inputs.semver }}
+
+    - name: Publish
+      run: npx tsx ./scripts/publish.ts ${{ steps.version.outputs.version }}
+      env:
+          VSCE_PAT: ${{ secrets.VSCE_TOKEN }}
