@@ -210,6 +210,18 @@
     "file_clojure": {
       "iconPath": "./icons/clojure.svg"
     },
+    "file_ml": {
+      "iconPath": "./icons/ml.svg"
+    },
+    "file_mli": {
+      "iconPath": "./icons/mli.svg"
+    },
+    "file_dune": {
+      "iconPath": "./icons/dune.svg"
+    },
+    "file_opam": {
+      "iconPath": "./icons/opam.svg"
+    },
     "file_protobuf": {
       "iconPath": "./icons/protobuf.svg"
     },
@@ -248,6 +260,8 @@
   "folder": "folder",
   "folderNames": {},
   "fileNames": {
+    "dune": "file_dune",
+    "dune-projecT": "file_dune",
     ".gitignore": "file_gitignore",
     ".gitattributes": "file_gitignore",
     ".gitmodules": "file_gitignore",
@@ -304,6 +318,9 @@
     "Directory.Build.props": "file_buildprops"
   },
   "fileExtensions": {
+    "ml": "file_ml",
+    "mli": "file_mli",
+    "opam": "file_opam",
     "css": "file_css",
     "dart": "file_dart",
     "erb": "file_erb",
