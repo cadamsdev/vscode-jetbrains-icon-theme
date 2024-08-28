@@ -126,8 +126,14 @@
     "file_go": {
       "iconPath": "./icons/go.svg"
     },
-    "file_gomodsum": {
-      "iconPath": "./icons/gomodsum.svg"
+    "file_gomod": {
+      "iconPath": "./icons/goMod.svg"
+    },
+    "file_gosum": {
+      "iconPath": "./icons/goSum.svg"
+    },
+    "file_gowork": {
+      "iconPath": "./icons/goWork.svg"
     },
     "file_http": {
       "iconPath": "./icons/http.svg"
@@ -313,8 +319,9 @@
     ".eslintrc.yml": "file_eslint",
     ".eslintrc.yaml": "file_eslint",
     ".eslintignore": "file_eslint",
-    "go.mod": "file_gomodsum",
-    "go.sum": "file_gomodsum",
+    "go.mod": "file_gomod",
+    "go.sum": "file_gosum",
+    "go.work": "file_gowork",
     "Directory.Build.props": "file_buildprops"
   },
   "fileExtensions": {
