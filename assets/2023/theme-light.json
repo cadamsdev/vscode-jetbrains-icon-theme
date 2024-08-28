@@ -9,6 +9,12 @@
     "folder": {
       "iconPath": "./icons/folder.svg"
     },
+    "folder_vendor": {
+      "iconPath": "./icons/folderVendor.svg"
+    },
+    "folder_test": {
+      "iconPath": "./icons/folderTest.svg"
+    },
     "file_ignored": {
       "iconPath": "./icons/ignored.svg"
     },
@@ -264,7 +270,17 @@
   },
   "file": "file_text",
   "folder": "folder",
-  "folderNames": {},
+  "folderNames": {
+    "vendor": "folder_vendor",
+    "test": "folder_test",
+    "tests": "folder_test",
+    "__test__": "folder_test",
+    "__tests__": "folder_test",
+    "__fixtures__": "folder_test",
+    "__snapshots__": "folder_test",
+    "spec": "folder_test",
+    "specs": "folder_test"
+  },
   "fileNames": {
     "dune": "file_dune",
     "dune-project": "file_dune",
