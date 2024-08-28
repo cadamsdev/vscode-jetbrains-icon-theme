@@ -9,6 +9,12 @@
     "folder": {
       "iconPath": "./icons/folder_dark.svg"
     },
+    "folder_vendor": {
+      "iconPath": "./icons/folderVendor_dark.svg"
+    },
+    "folder_test": {
+      "iconPath": "./icons/folderTest_dark.svg"
+    },
     "file_ignored": {
       "iconPath": "./icons/ignored_dark.svg"
     },
@@ -126,8 +132,14 @@
     "file_go": {
       "iconPath": "./icons/go_dark.svg"
     },
-    "file_gomodsum": {
-      "iconPath": "./icons/gomodsum.svg"
+    "file_gomod": {
+      "iconPath": "./icons/goMod_dark.svg"
+    },
+    "file_gosum": {
+      "iconPath": "./icons/goSum_dark.svg"
+    },
+    "file_gowork": {
+      "iconPath": "./icons/goWork_dark.svg"
     },
     "file_http": {
       "iconPath": "./icons/http_dark.svg"
@@ -258,7 +270,17 @@
   },
   "file": "file_text",
   "folder": "folder",
-  "folderNames": {},
+  "folderNames": {
+    "vendor": "folder_vendor",
+    "test": "folder_test",
+    "tests": "folder_test",
+    "__test__": "folder_test",
+    "__tests__": "folder_test",
+    "__fixtures__": "folder_test",
+    "__snapshots__": "folder_test",
+    "spec": "folder_test",
+    "specs": "folder_test"
+  },
   "fileNames": {
     "dune": "file_dune",
     "dune-projecT": "file_dune",
@@ -313,8 +335,9 @@
     ".eslintrc.yml": "file_eslint",
     ".eslintrc.yaml": "file_eslint",
     ".eslintignore": "file_eslint",
-    "go.mod": "file_gomodsum",
-    "go.sum": "file_gomodsum",
+    "go.mod": "file_gomod",
+    "go.sum": "file_gosum",
+    "go.work": "file_gowork",
     "Directory.Build.props": "file_buildprops"
   },
   "fileExtensions": {
