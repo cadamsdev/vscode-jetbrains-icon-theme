@@ -223,7 +223,7 @@
       "iconPath": "./icons/opam.svg"
     },
     "file_protobuf": {
-      "iconPath": "./icons/protobuf.svg"
+      "iconPath": "./icons/protoFile_dark.svg"
     },
     "file_hcl": {
       "iconPath": "./icons/hcl_dark.svg"
