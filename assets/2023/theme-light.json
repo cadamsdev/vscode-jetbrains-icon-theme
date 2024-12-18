@@ -450,6 +450,7 @@
     "erl": "file_erlang",
     "lua": "file_lua",
     "hs": "file_haskell",
-    "graphql": "file_graphql"
+    "graphql": "file_graphql",
+    "gql": "file_graphql"
   }
 }
