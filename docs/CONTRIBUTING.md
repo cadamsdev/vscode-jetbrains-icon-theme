@@ -12,6 +12,6 @@
 4. Update the theme json file
    - Update `iconDefinitions`
    - Update `fileNames` or `fileExtensions`
-5. To test the new icon, run in terminal `npm run build`. This should create a *.vsix file. In VSCode right click on that file click "Install Extension VSIX".
+5. To test the new icon, run in terminal `npm run prebuild`. This should create a *.vsix file. In VSCode right click on that file click "Install Extension VSIX".
    - Once that is installed, change the icon theme to the theme that has your new icon. e.g mac Command + Shift + P -> Preferences: File Icon Theme -> e.g JetBrains Icon Theme 2023+ UI Dark
    - Create an empty file with the file name or file extension to verify your icon shows up.

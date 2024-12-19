@@ -15,6 +15,18 @@
     "folder_test": {
       "iconPath": "./icons/folderTest.svg"
     },
+    "folder_controller": {
+      "iconPath": "./icons/folderControllers.svg"
+    },
+    "folder_mailers": {
+      "iconPath": "./icons/folderMailers.svg"
+    },
+    "folder_helper": {
+      "iconPath": "./icons/folderHelpers.svg"
+    },
+    "folder_migrate": {
+      "iconPath": "./icons/folderMigrations.svg"
+    },
     "file_ignored": {
       "iconPath": "./icons/ignored.svg"
     },
@@ -274,6 +286,10 @@
     "vendor": "folder_vendor",
     "test": "folder_test",
     "tests": "folder_test",
+    "controllers": "folder_controller",
+    "mailers": "folder_mailers",
+    "helpers": "folder_helper",
+    "migrate": "folder_migrate",
     "__test__": "folder_test",
     "__tests__": "folder_test",
     "__fixtures__": "folder_test",
