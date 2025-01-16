@@ -278,6 +278,18 @@
     },
     "file_buildprops": {
       "iconPath": "./icons/projectProperties.svg"
+    },
+    "file_test_ts": {
+      "iconPath": "./icons/tsTest.svg"
+    },
+    "file_test_tsx": {
+      "iconPath": "./icons/tsxTest.svg"
+    },
+    "file_test_js": {
+      "iconPath": "./icons/jsTest.svg"
+    },
+    "file_test_jsx": {
+      "iconPath": "./icons/jsxTest.svg"
     }
   },
   "file": "file_text",
@@ -467,6 +479,10 @@
     "lua": "file_lua",
     "hs": "file_haskell",
     "graphql": "file_graphql",
-    "gql": "file_graphql"
+    "gql": "file_graphql",
+    "test.ts": "file_test_ts",
+    "test.tsx": "file_test_tsx",
+    "test.jsx": "file_test_jsx",
+    "test.js": "file_test_js"
   }
 }
