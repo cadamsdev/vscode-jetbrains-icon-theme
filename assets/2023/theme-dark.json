@@ -126,6 +126,12 @@
     "file_cpp": {
       "iconPath": "./icons/cpp_dark.svg"
     },
+    "file_cu": {
+      "iconPath": "./icons/cu_dark.svg"
+    },
+    "file_cuh": {
+      "iconPath": "./icons/cuh_dark.svg"
+    },
     "file_scala": {
       "iconPath": "./icons/scala_dark.svg"
     },
@@ -430,6 +436,8 @@
     "cppm": "file_cpp",
     "c++m": "file_cpp",
     "ixx": "file_cpp",
+    "cu": "file_cu",
+    "cuh": "file_cuh",
     "scala": "file_scala",
     "gz": "file_archive",
     "zip": "file_archive",
