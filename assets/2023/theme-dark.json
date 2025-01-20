@@ -296,6 +296,9 @@
     },
     "file_test_jsx": {
       "iconPath": "./icons/jsxTest_dark.svg"
+    },
+    "file_jsx": {
+      "iconPath": "./icons/jsx_dark.svg"
     }
   },
   "file": "file_text",
@@ -386,7 +389,7 @@
     "kt": "file_kotlin",
     "json": "file_json",
     "html": "file_html",
-    "jsx": "file_react",
+    "jsx": "file_jsx",
     "tsx": "file_react",
     "rake": "file_rake",
     "rb": "file_ruby",
