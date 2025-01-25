@@ -299,6 +299,9 @@
     },
     "file_jsx": {
       "iconPath": "./icons/jsx_dark.svg"
+    },
+    "file_db": {
+      "iconPath": "./icons/dbms_dark.svg"
     }
   },
   "file": "file_text",
@@ -494,6 +497,17 @@
     "test.ts": "file_test_ts",
     "test.tsx": "file_test_tsx",
     "test.jsx": "file_test_jsx",
-    "test.js": "file_test_js"
+    "test.js": "file_test_js",
+    "db": "file_db",
+    "sqlite": "file_db",
+    "sqlite3": "file_db",
+    "db3": "file_db",
+    "accdb": "file_db",
+    "mdb": "file_db",
+    "dbf": "file_db",
+    "ndf": "file_db",
+    "ibd": "file_db",
+    "frm": "file_db",
+    "ora": "file_db"
   }
 }
