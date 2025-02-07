@@ -36,13 +36,13 @@ Install the extension directly from the [Visual Studio Marketplace](https://mark
 *Supports Light, Dark, and Auto variants*  
 **Preview:**
 
-![Preview v2](./assets/2023/preview.png)
+<img src="./assets/2023/preview.png" alt="Preview v2" width="350"/>
 
 ### Version V1
 
 **Preview:**
 
-![Preview v1](./assets/v1/preview.png)
+<img src="./assets/v1/preview.png" alt="Preview v1" width="350"/>
 
 ## Links
 
