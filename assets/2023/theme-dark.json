@@ -302,6 +302,9 @@
     },
     "file_db": {
       "iconPath": "./icons/dbms_dark.svg"
+    },
+    "file_ino": {
+      "iconPath": "./icons/ino_dark.svg"
     }
   },
   "file": "file_text",
@@ -509,6 +512,7 @@
     "ibd": "file_db",
     "frm": "file_db",
     "ora": "file_db",
-    "jinja": "file_html"
+    "jinja": "file_html",
+    "ino": "file_ino"
   }
 }
