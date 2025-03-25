@@ -508,6 +508,7 @@
     "ndf": "file_db",
     "ibd": "file_db",
     "frm": "file_db",
-    "ora": "file_db"
+    "ora": "file_db",
+    "jinja": "file_html"
   }
 }
