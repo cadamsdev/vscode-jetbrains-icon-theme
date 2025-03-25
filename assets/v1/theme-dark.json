@@ -221,6 +221,9 @@
     },
     "file_type_swift": {
       "iconPath": "./icons/swift.svg"
+    },
+    "file_type_ino": {
+      "iconPath": "./icons/ino.svg"
     }
   },
   "file": "file_type",
@@ -346,6 +349,7 @@
     "lua": "file_type_lua",
     "proto": "file_type_proto",
     "swift": "file_type_swift",
-    "jijnja": "file_type_html"
+    "jijnja": "file_type_html",
+    "ino": "file_type_ino"
   }
 }
