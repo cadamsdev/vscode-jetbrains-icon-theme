@@ -302,6 +302,9 @@
     },
     "file_db": {
       "iconPath": "./icons/dbms.svg"
+    },
+    "file_lock": {
+      "iconPath": "./icons/lock.svg"
     }
   },
   "file": "file_text",
@@ -508,6 +511,7 @@
     "ndf": "file_db",
     "ibd": "file_db",
     "frm": "file_db",
-    "ora": "file_db"
+    "ora": "file_db",
+    "lock": "file_lock"
   }
 }

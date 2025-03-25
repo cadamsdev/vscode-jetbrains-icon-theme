@@ -221,13 +221,14 @@
     },
     "file_type_swift": {
       "iconPath": "./icons/swift.svg"
+    },
+    "file_type_lock": {
+      "iconPath": "./icons/lock.svg"
     }
   },
   "file": "file_type",
   "folder": "folder_type",
-  "folderNames": {
-
-  },
+  "folderNames": {},
   "fileNames": {
     ".gitignore": "file_type_ignore",
     ".dockerignore": "file_type_ignore",
@@ -289,8 +290,8 @@
     "less": "file_type_less",
     "html": "file_type_html",
     "coffee": "file_type_coffeescript",
-		"litcoffee": "file_type_coffeescript",
-		"scala": "file_type_scala",
+    "litcoffee": "file_type_coffeescript",
+    "scala": "file_type_scala",
     "vue": "file_type_vue",
     "gz": "file_type_archive",
     "zip": "file_type_archive",
@@ -347,6 +348,7 @@
     "html.erb": "file_type_erb",
     "lua": "file_type_lua",
     "proto": "file_type_proto",
-    "swift": "file_type_swift"
+    "swift": "file_type_swift",
+    "lock": "file_type_lock"
   }
 }
