@@ -224,6 +224,9 @@
     },
     "file_type_lock": {
       "iconPath": "./icons/lock.svg"
+    },
+    "file_type_ino": {
+      "iconPath": "./icons/ino.svg"
     }
   },
   "file": "file_type",
@@ -349,6 +352,8 @@
     "lua": "file_type_lua",
     "proto": "file_type_proto",
     "swift": "file_type_swift",
-    "lock": "file_type_lock"
+    "lock": "file_type_lock",
+    "ino": "file_type_ino",
+    "jinja": "file_type_html"
   }
 }
