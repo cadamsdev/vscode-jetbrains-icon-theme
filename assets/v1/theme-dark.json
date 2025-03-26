@@ -224,6 +224,8 @@
     },
     "file_type_ino": {
       "iconPath": "./icons/ino.svg"
+    "file_type_lock": {
+      "iconPath": "./icons/lock.svg"
     }
   },
   "file": "file_type",
@@ -351,5 +353,6 @@
     "swift": "file_type_swift",
     "jijnja": "file_type_html",
     "ino": "file_type_ino"
+    "lock": "file_type_lock"
   }
 }

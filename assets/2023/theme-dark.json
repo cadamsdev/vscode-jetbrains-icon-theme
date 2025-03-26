@@ -305,6 +305,8 @@
     },
     "file_ino": {
       "iconPath": "./icons/ino_dark.svg"
+    "file_lock": {
+      "iconPath": "./icons/lock_dark.svg"
     }
   },
   "file": "file_text",
@@ -514,5 +516,6 @@
     "ora": "file_db",
     "jinja": "file_html",
     "ino": "file_ino"
+    "lock": "file_lock"
   }
 }
