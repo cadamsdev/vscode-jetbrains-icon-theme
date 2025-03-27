@@ -384,7 +384,8 @@
     "go.mod": "file_gomod",
     "go.sum": "file_gosum",
     "go.work": "file_gowork",
-    "Directory.Build.props": "file_buildprops"
+    "Directory.Build.props": "file_buildprops",
+    "tsconfig.json": "file_typescript"
   },
   "fileExtensions": {
     "ml": "file_ml",

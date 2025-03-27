@@ -249,7 +249,8 @@
     "postcss.config.cjs": "file_type_postcss",
     "postcss.config.js": "file_type_postcss",
     "CMakeLists.txt": "file_type_cmake",
-    "pnpm-lock.yaml": "file_type_pnpm"
+    "pnpm-lock.yaml": "file_type_pnpm",
+    "tsconfig.json": "file_typescript"
   },
   "fileExtensions": {
     "css": "file_type_css",
