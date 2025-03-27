@@ -394,6 +394,8 @@
     "sass": "file_scss",
     "kt": "file_kotlin",
     "json": "file_json",
+    "jsonc": "file_json",
+    "json5": "file_json",
     "html": "file_html",
     "jsx": "file_jsx",
     "tsx": "file_react",
