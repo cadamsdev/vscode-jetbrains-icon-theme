@@ -305,6 +305,9 @@
     },
     "file_lock": {
       "iconPath": "./icons/lock_dark.svg"
+    },
+    "file_ino": {
+      "iconPath": "./icons/ino_dark.svg"
     }
   },
   "file": "file_text",
@@ -381,7 +384,8 @@
     "go.mod": "file_gomod",
     "go.sum": "file_gosum",
     "go.work": "file_gowork",
-    "Directory.Build.props": "file_buildprops"
+    "Directory.Build.props": "file_buildprops",
+    "tsconfig.json": "file_typescript"
   },
   "fileExtensions": {
     "ml": "file_ml",
@@ -514,6 +518,8 @@
     "ibd": "file_db",
     "frm": "file_db",
     "ora": "file_db",
-    "lock": "file_lock"
+    "lock": "file_lock",
+    "ino": "file_ino",
+    "jinja": "file_html"
   }
 }
