@@ -257,6 +257,8 @@
     "mjs": "file_type_javascript",
     "txt": "file_type_text",
     "json": "file_type_json",
+    "jsonc": "file_type_json",
+    "json5": "file_type_json",
     "ts": "file_type_typescript",
     "jsx": "file_type_jsx",
     "tsx": "file_type_tsx",
