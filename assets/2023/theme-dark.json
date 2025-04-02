@@ -519,6 +519,7 @@
     "ora": "file_db",
     "lock": "file_lock",
     "ino": "file_ino",
-    "jinja": "file_html"
+    "jinja": "file_html",
+    "razor": "file_cshtml"
   }
 }
