@@ -361,6 +361,7 @@
     "rust-toolchain.toml": "file_cargo",
     "Cargo.lock": "file_cargolock",
     "CMakeLists.txt": "file_cmake",
+    "CMakeCache.txt": "file_config",
     "pnpm-lock.yaml": "file_pnpm",
     "pnpm-workspace.yaml": "file_pnpm",
     "tailwind.config.js": "file_tailwind",
