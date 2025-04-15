@@ -356,6 +356,7 @@
     "swift": "file_type_swift",
     "lock": "file_type_lock",
     "ino": "file_type_ino",
-    "jinja": "file_type_html"
+    "jinja": "file_type_html",
+    "cmake": "file_type_cmake"
   }
 }
