@@ -1,7 +1,7 @@
 {
   "iconDefinitions": {
-    "file_handlebars":{
-      "iconPath": ".icons/handlebarsJson.svg"
+    "file_handlebars": {
+      "iconPath": "./icons/handlebarsJson.svg"
     },
     "file_text": {
       "iconPath": "./icons/text.svg"
