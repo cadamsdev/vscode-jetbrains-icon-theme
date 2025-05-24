@@ -331,7 +331,6 @@
     "specs": "folder_test"
   },
   "fileNames": {
-    "handlebars":"file_handlebars",
     "dune": "file_dune",
     "dune-projecT": "file_dune",
     ".gitignore": "file_gitignore",
