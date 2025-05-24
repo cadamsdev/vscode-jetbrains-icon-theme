@@ -392,6 +392,7 @@
   },
   "fileExtensions": {
     "handlebars": "file_handlebars",
+    "hbs": "file_handlebars",
     "ml": "file_ml",
     "mli": "file_mli",
     "opam": "file_opam",
