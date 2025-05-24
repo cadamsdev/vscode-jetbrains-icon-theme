@@ -5,7 +5,7 @@
   "publisher": "chadalen",
   "author": {
     "name": "Chad Adams",
-    "email": "me@chadalen.com",
+    "email": "cadamsdev@outlook.com",
     "url": "https://cadamsdev.com"
   },
   "version": "2.31.0",
@@ -39,7 +39,7 @@
     "idea"
   ],
   "bugs": {
-    "url": "https://github.com/chadalen/vscode-jetbrains-icon-theme/issues"
+    "url": "https://github.com/cadamsdev/vscode-jetbrains-icon-theme/issues"
   },
   "contributes": {
     "iconThemes": [
