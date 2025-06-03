@@ -311,6 +311,9 @@
     },
     "file_ino": {
       "iconPath": "./icons/ino.svg"
+    },
+    "file_opentofu": {
+      "iconPath": "./icons/opentofu.svg"
     }
   },
   "file": "file_text",
@@ -396,10 +399,10 @@
     "ml": "file_ml",
     "mli": "file_mli",
     "opam": "file_opam",
-    "dart": "file_dart",
     "css": "file_css",
-    "scss": "file_scss",
+    "dart": "file_dart",
     "erb": "file_erb",
+    "scss": "file_scss",
     "sass": "file_scss",
     "kt": "file_kotlin",
     "json": "file_json",
@@ -527,6 +530,7 @@
     "ino": "file_ino",
     "jinja": "file_html",
     "razor": "file_cshtml",
-    "cmake": "file_cmake"
+    "cmake": "file_cmake",
+    "tofu": "file_opentofu"
   }
 }
