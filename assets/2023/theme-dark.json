@@ -1,6 +1,6 @@
 {
   "iconDefinitions": {
-    "file_handlebars":{
+    "file_handlebars": {
       "iconPath": "./icons/handlebarsJson_dark.svg"
     },
     "file_text": {
@@ -311,6 +311,9 @@
     },
     "file_ino": {
       "iconPath": "./icons/ino_dark.svg"
+    },
+    "file_opentofu": {
+      "iconPath": "./icons/opentofu.svg"
     }
   },
   "file": "file_text",
@@ -332,7 +335,7 @@
   },
   "fileNames": {
     "dune": "file_dune",
-    "dune-projecT": "file_dune",
+    "dune-project": "file_dune",
     ".gitignore": "file_gitignore",
     ".gitattributes": "file_gitignore",
     ".gitmodules": "file_gitignore",
@@ -527,6 +530,7 @@
     "ino": "file_ino",
     "jinja": "file_html",
     "razor": "file_cshtml",
-    "cmake": "file_cmake"
+    "cmake": "file_cmake",
+    "tofu": "file_opentofu"
   }
 }
