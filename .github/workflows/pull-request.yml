@@ -1,21 +1,22 @@
-name: Release
+name: Pull Request
 
 on:
   pull_request:
-    types: [closed]
+    types: [opened, synchronize, edited]
     branches:
       - main
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
-  release:
-    if: github.event.pull_request.head.repo.full_name == github.repository && github.event.pull_request.merged == true
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -24,18 +25,11 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-  
+
       - name: Prebuild
         run: npm run prebuild
 
       - name: Create Release PR or Release
-        id: lazy-release
         uses: cadamsdev/lazy-release-action@a42c92f017d915146778c111d988f16d732cc395 # v0.4.0
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Publish
-        if: ${{ steps.lazy-release.outputs.vscode-jetbrains-icon-theme != '' }}
-        run: npx tsx ./scripts/publish.ts ${{ steps.lazy-release.outputs.vscode-jetbrains-icon-theme }}
-        env:
-          VSCE_PAT: ${{ secrets.VSCE_TOKEN }}
