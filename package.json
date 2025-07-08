@@ -1,5 +1,7 @@
 {
   "name": "vscode-jetbrains-icon-theme",
+  "private": true,
+  "version": "2.33.0",
   "displayName": "JetBrains Icon Theme",
   "description": "JetBrains Icon Theme for VSCode",
   "publisher": "chadalen",
@@ -8,7 +10,6 @@
     "email": "cadamsdev@outlook.com",
     "url": "https://cadamsdev.com"
   },
-  "version": "2.33.0",
   "scripts": {
     "prebuild": "tsx ./scripts/build/build.ts",
     "package": "vsce package"
