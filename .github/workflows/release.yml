@@ -33,6 +33,7 @@ jobs:
         uses: cadamsdev/lazy-release-action@40cbbc343f8b7c8efb5c7ae4e7fd9b9584472531 # v0.5.1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          end-commit: 8da2d3a8211a199b9dc7be9e9a41a35ad5603504
 
       - name: Publish
         if: ${{ steps.lazy-release.outputs.vscode-jetbrains-icon-theme != '' }}
