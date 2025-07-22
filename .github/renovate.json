@@ -4,5 +4,6 @@
     "config:recommended",
     "group:allNonMajor"
   ],
-  "rangeStrategy": "bump"
+  "rangeStrategy": "bump",
+  "schedule": ["before 6am on monday"]
 }
