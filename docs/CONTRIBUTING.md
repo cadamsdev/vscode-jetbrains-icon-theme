@@ -5,7 +5,7 @@
 1. Find an icon in SVG format (Most icons are from [here](https://jetbrains.design/intellij/resources/icons_list/))
 2. Make sure you have [node.js](https://nodejs.org/en) installed
    - We recommend installing node via [nvm](https://github.com/nvm-sh/nvm)
-     - Run `nvm install v18`
+     - Run `nvm install v22`
      - Run `nvm use`
 3. Add the svg to the icons theme folder
    - Either [themes/2023/icons](https://github.com/cadamsdev/vscode-jetbrains-icon-theme/tree/main/themes/2023/icons) or [themes/v1/icons](https://github.com/cadamsdev/vscode-jetbrains-icon-theme/tree/main/themes/v1/icons)
