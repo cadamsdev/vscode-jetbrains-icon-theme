@@ -314,6 +314,9 @@
     },
     "file_opentofu": {
       "iconPath": "./icons/opentofu.svg"
+    },
+    "file_zig": {
+      "iconPath": "./icons/zig.svg"
     }
   },
   "file": "file_text",
@@ -531,6 +534,7 @@
     "jinja": "file_html",
     "razor": "file_cshtml",
     "cmake": "file_cmake",
-    "tofu": "file_opentofu"
+    "tofu": "file_opentofu",
+    "zig": "file_zig"
   }
 }
