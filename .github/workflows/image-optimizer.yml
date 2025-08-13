@@ -1,0 +1,28 @@
+name: Compress Images
+
+on:
+  pull_request:
+    paths:
+      - '**/*.svg'
+      - '**/*.png'
+      - '**/*.jpg'
+      - '**/*.jpeg'
+      - '**/*.gif'
+      - '**/*.webp'
+      - '**/*.avif'
+
+jobs:
+  build:
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    name: stellasoftio/image-optimizer-action
+    permissions: write-all
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Compress Images
+        id: compress-images
+        uses: stellasoftio/image-optimizer-action@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
