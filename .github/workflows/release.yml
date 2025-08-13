@@ -20,7 +20,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 22.18.0
 
       - name: Install dependencies
         run: npm ci
@@ -30,7 +30,7 @@ jobs:
 
       - name: Create Release PR or Release
         id: lazy-release
-        uses: cadamsdev/lazy-release-action@40cbbc343f8b7c8efb5c7ae4e7fd9b9584472531 # v0.5.1
+        uses: cadamsdev/lazy-release-action@242f972b19116494006f966c4d2e57ff067a4db1 # v0.6.0
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           end-commit: 8da2d3a8211a199b9dc7be9e9a41a35ad5603504
