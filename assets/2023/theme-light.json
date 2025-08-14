@@ -320,6 +320,9 @@
     },
     "file_c3" : {
       "iconPath": "./icons/c3.svg"
+    },
+    "file_c3Test" : {
+      "iconPath": "./icons/c3Test.svg"
     }
   },
   "file": "file_text",
@@ -539,6 +542,7 @@
     "cmake": "file_cmake",
     "tofu": "file_opentofu",
     "zig": "file_zig",
-    "c3": "file_c3"
+    "c3": "file_c3",
+    "c3t": "file_c3Test"
   }
 }
