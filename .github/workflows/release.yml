@@ -37,6 +37,8 @@ jobs:
 
       - name: Publish
         if: ${{ steps.lazy-release.outputs.vscode-jetbrains-icon-theme_version != '' }}
-        run: npx tsx ./scripts/publish.ts ${{ steps.lazy-release.outputs.vscode-jetbrains-icon-theme_version }}
+        run: |
+          npm run package
+          npx vsce publish ${{ steps.lazy-release.outputs.vscode-jetbrains-icon-theme_version }}
         env:
           VSCE_PAT: ${{ secrets.VSCE_TOKEN }}
