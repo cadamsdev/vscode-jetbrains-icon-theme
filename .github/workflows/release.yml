@@ -36,7 +36,9 @@ jobs:
           end-commit: 8da2d3a8211a199b9dc7be9e9a41a35ad5603504
 
       - name: Publish
-        if: ${{ steps.lazy-release.outputs.vscode-jetbrains-icon-theme != '' }}
-        run: npx tsx ./scripts/publish.ts ${{ steps.lazy-release.outputs.vscode-jetbrains-icon-theme }}
+        if: ${{ steps.lazy-release.outputs.vscode-jetbrains-icon-theme_version != '' }}
+        run: |
+          npm run package
+          npx vsce publish ${{ steps.lazy-release.outputs.vscode-jetbrains-icon-theme_version }}
         env:
           VSCE_PAT: ${{ secrets.VSCE_TOKEN }}
