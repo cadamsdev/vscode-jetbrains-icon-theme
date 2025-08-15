@@ -317,6 +317,12 @@
     },
     "file_zig": {
       "iconPath": "./icons/zig.svg"
+    },
+    "file_c3": {
+      "iconPath": "./icons/c3_dark.svg"
+    },
+    "file_c3Test": {
+      "iconPath": "./icons/c3Test_dark.svg"
     }
   },
   "file": "file_text",
@@ -535,6 +541,8 @@
     "razor": "file_cshtml",
     "cmake": "file_cmake",
     "tofu": "file_opentofu",
-    "zig": "file_zig"
+    "zig": "file_zig",
+    "c3": "file_c3",
+    "c3t": "file_c3Test"
   }
 }
