@@ -20,7 +20,7 @@ jobs:
 
       - name: Create New Pull Request If Needed
         if: steps.compress-images.outputs.markdown_report != ''
-        uses: peter-evans/create-pull-request@v5
+        uses: peter-evans/create-pull-request@v7
         with:
           title: Compressed Images
           branch-suffix: timestamp
