@@ -323,6 +323,12 @@
     },
     "file_c3Test" : {
       "iconPath": "./icons/c3Test.svg"
+    },
+    "file_c3Interface" : {
+      "iconPath": "./icons/c3Interface.svg"
+    },
+    "file_c3Library" : {
+      "iconPath": "./icons/c3Library.svg"
     }
   },
   "file": "file_text",
@@ -543,6 +549,8 @@
     "tofu": "file_opentofu",
     "zig": "file_zig",
     "c3": "file_c3",
-    "c3t": "file_c3Test"
+    "c3t": "file_c3Test",
+    "c3i": "file_c3Interface",
+    "c3l": "file_c3Library"
   }
 }
