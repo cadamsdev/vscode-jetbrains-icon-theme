@@ -1,16 +1,26 @@
 name: Release
 
 on:
-  pull_request:
+  push: # For creating or updating the Release PR
+    branches:
+      - main
+  pull_request: # For creating a release by merging in the Release PR
     types: [closed]
     branches:
       - main
 
+permissions:
+  contents: write
+  packages: write
+  pull-requests: write
+
 jobs:
   release:
-    if: github.event.pull_request.head.repo.full_name == github.repository && github.event.pull_request.merged == true
+    if: >
+      github.event.repository.fork == false &&
+      (github.event_name == 'push' || 
+       (github.event_name == 'pull_request' && github.event.pull_request.merged == true))
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -30,7 +40,7 @@ jobs:
 
       - name: Create Release PR or Release
         id: lazy-release
-        uses: cadamsdev/lazy-release-action@242f972b19116494006f966c4d2e57ff067a4db1 # v0.6.0
+        uses: stellasoftio/lazy-release-action@0cb4b3f3dff07aed965af41a37112abe7b1905e2 # v0.7.0
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           end-commit: 8da2d3a8211a199b9dc7be9e9a41a35ad5603504
