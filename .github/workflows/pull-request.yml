@@ -1,8 +1,7 @@
 name: Pull Request
 
 on:
-  pull_request_target:
-    types: [opened, synchronize, edited]
+  pull_request:
     branches:
       - main
 
@@ -28,9 +27,3 @@ jobs:
 
       - name: Prebuild
         run: npm run prebuild
-
-      - name: Create Release PR or Release
-        uses: cadamsdev/lazy-release-action@242f972b19116494006f966c4d2e57ff067a4db1 # v0.6.0
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          end-commit: 8da2d3a8211a199b9dc7be9e9a41a35ad5603504
