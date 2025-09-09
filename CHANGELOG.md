@@ -1,3 +1,9 @@
+## 2.36.0 (2025-09-09)
+
+### 🚀 New Features
+- Add biome.json support ([#191](https://github.com/cadamsdev/vscode-jetbrains-icon-theme/pull/191))
+
+
 ## 2.35.0 (2025-08-26)
 
 ### 🚀 New Features
