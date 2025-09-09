@@ -332,6 +332,12 @@
     },
     "file_c3Library": {
       "iconPath": "./icons/c3Library_dark.svg"
+    },
+    "file_nodejs": {
+      "iconPath": "./icons/nodejs_dark.svg"
+    },
+    "file_npm": {
+      "iconPath": "./icons/npm_dark.svg"
     }
   },
   "file": "file_text",
@@ -408,6 +414,9 @@
     ".eslintrc.yml": "file_eslint",
     ".eslintrc.yaml": "file_eslint",
     ".eslintignore": "file_eslint",
+    ".nvmrc": "file_nodejs",
+    ".node-version": "file_nodejs",
+    ".npmrc": "file_npm",
     "go.mod": "file_gomod",
     "go.sum": "file_gosum",
     "go.work": "file_gowork",

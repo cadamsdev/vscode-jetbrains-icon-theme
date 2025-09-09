@@ -321,17 +321,23 @@
     "file_zig": {
       "iconPath": "./icons/zig.svg"
     },
-    "file_c3" : {
+    "file_c3": {
       "iconPath": "./icons/c3.svg"
     },
-    "file_c3Test" : {
+    "file_c3Test": {
       "iconPath": "./icons/c3Test.svg"
     },
-    "file_c3Interface" : {
+    "file_c3Interface": {
       "iconPath": "./icons/c3Interface.svg"
     },
-    "file_c3Library" : {
+    "file_c3Library": {
       "iconPath": "./icons/c3Library.svg"
+    },
+    "file_nodejs": {
+      "iconPath": "./icons/nodejs.svg"
+    },
+    "file_npm": {
+      "iconPath": "./icons/npm.svg"
     }
   },
   "file": "file_text",
@@ -408,6 +414,9 @@
     ".eslintrc.yml": "file_eslint",
     ".eslintrc.yaml": "file_eslint",
     ".eslintignore": "file_eslint",
+    ".nvmrc": "file_nodejs",
+    ".node-version": "file_nodejs",
+    ".npmrc": "file_npm",
     "go.mod": "file_gomod",
     "go.sum": "file_gosum",
     "go.work": "file_gowork",
