@@ -216,6 +216,9 @@
     "file_angular": {
       "iconPath": "./icons/angularJS.svg"
     },
+    "file_biomejs": {
+      "iconPath": "./icons/biomejs.svg"
+    },
     "file_eslint": {
       "iconPath": "./icons/eslint.svg"
     },
@@ -395,6 +398,7 @@
     "postcss.config.cjs": "file_postcss",
     "postcss.config.ts": "file_postcss",
     "angular.json": "file_angular",
+    "biome.json": "file_biomejs",
     ".eslintrc": "file_eslint",
     ".eslintrc.cjs": "file_eslint",
     ".eslintrc.js": "file_eslint",
