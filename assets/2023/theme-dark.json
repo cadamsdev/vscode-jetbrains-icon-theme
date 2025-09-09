@@ -358,6 +358,7 @@
     ".gitattributes": "file_gitignore",
     ".gitmodules": "file_gitignore",
     ".gitkeep": "file_gitignore",
+    ".git-blame-ignore-revs": "file_gitignore",
     ".editorconfig": "file_editorconfig",
     ".yarnrc": "file_yarn",
     "yarn.lock": "file_yarn",
