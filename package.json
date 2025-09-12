@@ -21,7 +21,7 @@
     "url": "https://github.com/cadamsdev/vscode-jetbrains-icon-theme"
   },
   "engines": {
-    "vscode": "^1.103.2"
+    "vscode": "^1.104.0"
   },
   "categories": [
     "Themes"
@@ -68,7 +68,7 @@
   },
   "devDependencies": {
     "@actions/core": "^1.11.1",
-    "@types/node": "^22.18.0",
+    "@types/node": "^22.18.2",
     "@vscode/vsce": "^3.6.0",
     "svgson": "^5.3.1",
     "tsx": "^4.20.5",
