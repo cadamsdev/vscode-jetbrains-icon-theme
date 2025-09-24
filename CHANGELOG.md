@@ -1,3 +1,14 @@
+## 2.36.0 (2025-09-24)
+
+### 🚀 New Features
+- Add support for node-version-manager files and npm config file ([#190](https://github.com/cadamsdev/vscode-jetbrains-icon-theme/pull/190))
+- Add support for .git-blame-ignore-revs ([#189](https://github.com/cadamsdev/vscode-jetbrains-icon-theme/pull/189))
+- Add biome.json support ([#191](https://github.com/cadamsdev/vscode-jetbrains-icon-theme/pull/191))
+
+### 🏠 Chores
+- Update actions/setup-node action to v5 ([#188](https://github.com/cadamsdev/vscode-jetbrains-icon-theme/pull/188))
+
+
 ## 2.35.0 (2025-08-26)
 
 ### 🚀 New Features
