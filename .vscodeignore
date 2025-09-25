@@ -1,0 +1,50 @@
+# VSCode extension packaging ignore file
+# This file controls what gets included/excluded when packaging the extension
+
+# Development files and folders
+.git/
+.github/
+.gitignore
+.nvmrc
+node_modules/
+scripts/
+test/
+docs/
+
+# Source assets (built versions in dist/ are used instead)
+assets/
+
+# Build and development files
+package-lock.json
+*.log
+*.tmp
+*.temp
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Documentation (keep only README.md, LICENSE.md, CHANGELOG.md)
+# README.md, LICENSE.md, and CHANGELOG.md are kept by default
+
+# TypeScript files (if any)
+*.ts
+!*.d.ts
+
+# Source maps
+*.map
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Temporary folders
+tmp/
+temp/
