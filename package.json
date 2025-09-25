@@ -1,7 +1,7 @@
 {
   "name": "vscode-jetbrains-icon-theme",
   "private": true,
-  "version": "2.36.0",
+  "version": "2.35.0",
   "displayName": "JetBrains Icon Theme",
   "description": "JetBrains Icon Theme for VSCode",
   "publisher": "chadalen",
