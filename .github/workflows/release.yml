@@ -36,7 +36,7 @@ jobs:
       - name: Get version
         id: get-version
         run: |
-          VERSION=$(pnpm --silent lazy-release version)
+          VERSION=$(npm --silent run lazy-release version)
           echo "version=$VERSION" >> $GITHUB_OUTPUT
 
       - name: Publish
