@@ -1,36 +1,28 @@
 name: Release
 
 on:
-  push: # For creating or updating the Release PR
-    branches:
-      - main
-  pull_request: # For creating a release by merging in the Release PR
-    types: [closed]
-    branches:
-      - main
+  push:
+    branches: [main]
 
 permissions:
-  contents: write
-  packages: write
-  pull-requests: write
+  contents: write # Needed to publish tags and create releases
+  packages: write # (optional) Only needed if publishing to GitHub Packages
+  pull-requests: write # Needed to create Release PRs
 
 jobs:
   release:
-    if: >
-      github.event.repository.fork == false &&
-      (github.event_name == 'push' || 
-       (github.event_name == 'pull_request' && github.event.pull_request.merged == true))
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
         with:
-          fetch-depth: 0
+          fetch-depth: 0 # Fetch full history for proper commit analysis
 
       - name: Set up Node.js
         uses: actions/setup-node@v5
         with:
           node-version: 22.19.0
+          cache: 'npm'
 
       - name: Install dependencies
         run: npm ci
@@ -38,17 +30,19 @@ jobs:
       - name: Prebuild
         run: npm run prebuild
 
-      - name: Create Release PR or Release
-        id: lazy-release
-        uses: stellasoftio/lazy-release-action@0cb4b3f3dff07aed965af41a37112abe7b1905e2 # v0.7.0
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          end-commit: 8da2d3a8211a199b9dc7be9e9a41a35ad5603504
+      - name: Release
+        run: npm run lazy-release -- --github-token ${{ secrets.GITHUB_TOKEN }} --from 36131ccfb4dafbb04310b99c860a61580440ccdb
+
+      - name: Get version
+        id: get-version
+        run: |
+          VERSION=$(pnpm --silent lazy-release version)
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
 
       - name: Publish
-        if: ${{ steps.lazy-release.outputs.vscode-jetbrains-icon-theme_version != '' }}
+        if: ${{ steps.get-version.outputs.version != '' }}
         run: |
           npm run package
-          npx vsce publish ${{ steps.lazy-release.outputs.vscode-jetbrains-icon-theme_version }}
+          npx vsce publish ${{ steps.get-version.outputs.version }}
         env:
           VSCE_PAT: ${{ secrets.VSCE_TOKEN }}
