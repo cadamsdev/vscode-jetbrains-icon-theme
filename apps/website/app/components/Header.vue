@@ -70,16 +70,65 @@
     padding: 0 1rem;
   }
 
-  .nav {
-    gap: 1rem;
+  .logo {
+    font-size: 1rem;
+    gap: 0.5rem;
   }
 
-  .nav-link {
-    font-size: 0.875rem;
+  .logo-icon {
+    font-size: 1.25rem;
   }
 
   .logo-text {
-    font-size: 1rem;
+    font-size: 0.875rem;
+    white-space: nowrap;
+  }
+
+  .nav {
+    gap: 0.5rem;
+  }
+
+  .nav-link {
+    font-size: 0.75rem;
+    padding: 0.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 0.75rem;
+  }
+
+  .logo {
+    font-size: 0.875rem;
+    gap: 0.375rem;
+    min-width: 0;
+    flex-shrink: 1;
+  }
+
+  .logo-icon {
+    font-size: 1.125rem;
+    flex-shrink: 0;
+  }
+
+  .logo-text {
+    font-size: 0.75rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .nav {
+    gap: 0.375rem;
+    flex-shrink: 0;
+  }
+
+  .nav-link {
+    font-size: 0.688rem;
+    padding: 0.125rem;
+  }
+
+  .nav-link:nth-child(2) {
+    display: none;
   }
 }
 </style>
