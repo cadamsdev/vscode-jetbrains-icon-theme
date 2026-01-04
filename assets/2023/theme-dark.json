@@ -48,8 +48,8 @@
     "file_html": {
       "iconPath": "./icons/html_dark.svg"
     },
-    "file_react": {
-      "iconPath": "./icons/react_dark.svg"
+    "file_tsx": {
+      "iconPath": "./icons/tsx_dark.svg"
     },
     "file_ruby": {
       "iconPath": "./icons/ruby_dark.svg"
@@ -468,7 +468,7 @@
     "json5": "file_json",
     "html": "file_html",
     "jsx": "file_jsx",
-    "tsx": "file_react",
+    "tsx": "file_tsx",
     "rake": "file_rake",
     "rb": "file_ruby",
     "less": "file_less",
