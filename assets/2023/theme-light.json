@@ -344,7 +344,8 @@
     },
     "file_npm": {
       "iconPath": "./icons/npm.svg"
-    }
+    },
+    "file_vercel": {"iconPath": "./icons/vercel.svg"}
   },
   "file": "file_text",
   "folder": "folder",
@@ -449,7 +450,8 @@
     "go.mod": "file_gomod",
     "go.sum": "file_gosum",
     "go.work": "file_gowork",
-    "Directory.Build.props": "file_buildprops"
+    "Directory.Build.props": "file_buildprops",
+    "vercel.json": "file_vercel"
   },
   "fileExtensions": {
     "handlebars": "file_handlebars",
