@@ -1,9 +1,3 @@
-## [2.36.1](https://github.com/cadamsdev/vscode-jetbrains-icon-theme/compare/v2.36.0...v2.36.1) (2025-11-23)
-
-### 🤖 Automation
-- Switched to @lazy-release/cli ([f5162c8](https://github.com/cadamsdev/vscode-jetbrains-icon-theme/commit/f5162c8))
-
-
 ## 2.36.0 (2025-09-25)
 
 ### 🚀 New Features
