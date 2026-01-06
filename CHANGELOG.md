@@ -1,3 +1,12 @@
+## [2.37.0](https://github.com/cadamsdev/vscode-jetbrains-icon-theme/compare/v2.36.0...v2.37.0) (2026-01-06)
+
+### 🚀 New Features
+- Added new icons for jsx, tsx, lock files and prettier files ([#199](https://github.com/cadamsdev/vscode-jetbrains-icon-theme/pull/199))
+
+### 🤖 Automation
+- Switched to @lazy-release/cli ([f5162c8](https://github.com/cadamsdev/vscode-jetbrains-icon-theme/commit/f5162c8))
+
+
 ## 2.36.0 (2025-09-25)
 
 ### 🚀 New Features
