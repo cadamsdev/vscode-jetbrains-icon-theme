@@ -198,6 +198,9 @@
     "file_type_test_js": {
       "iconPath": "./icons/test_js.svg"
     },
+    "file_type_test_tsx": {
+      "iconPath": "./icons/test_tsx.svg"
+    },
     "file_type_graphql": {
       "iconPath": "./icons/graphql.svg"
     },
@@ -246,6 +249,7 @@
     ".htaccess": "file_type_htaccess",
     "license": "file_type_text",
     ".prettierrc": "file_type_json",
+    ".prettierignore": "file_type_ignore",
     "postcss.config.cjs": "file_type_postcss",
     "postcss.config.js": "file_type_postcss",
     "CMakeLists.txt": "file_type_cmake",
@@ -254,12 +258,15 @@
   "fileExtensions": {
     "css": "file_type_css",
     "js": "file_type_javascript",
+    "cjs": "file_type_javascript",
     "mjs": "file_type_javascript",
     "txt": "file_type_text",
     "json": "file_type_json",
     "jsonc": "file_type_json",
     "json5": "file_type_json",
     "ts": "file_type_typescript",
+    "cts": "file_type_typescript",
+    "mts": "file_type_typescript",
     "jsx": "file_type_jsx",
     "tsx": "file_type_tsx",
     "yml": "file_type_yaml",
@@ -344,9 +351,10 @@
     "cls": "file_type_cls",
     "sty": "file_type_sty",
     "mdx": "file_type_mdx",
+    "test.js": "file_type_test_js",
     "test.ts": "file_type_test_ts",
     "test.jsx": "file_type_test_jsx",
-    "test.js": "file_type_test_js",
+    "test.tsx": "file_type_test_tsx",
     "gql": "file_type_graphql",
     "graphql": "file_type_graphql",
     "graphqls": "file_type_graphql",

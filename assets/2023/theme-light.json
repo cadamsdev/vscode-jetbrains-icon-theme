@@ -48,8 +48,8 @@
     "file_html": {
       "iconPath": "./icons/html.svg"
     },
-    "file_react": {
-      "iconPath": "./icons/react.svg"
+    "file_tsx": {
+      "iconPath": "./icons/tsx.svg"
     },
     "file_ruby": {
       "iconPath": "./icons/ruby.svg"
@@ -104,6 +104,9 @@
     },
     "file_yarn": {
       "iconPath": "./icons/yarn.svg"
+    },
+    "file_bun": {
+      "iconPath": "./icons/bun.svg"
     },
     "file_markdown": {
       "iconPath": "./icons/markdown.svg"
@@ -222,6 +225,9 @@
     "file_eslint": {
       "iconPath": "./icons/eslint.svg"
     },
+    "file_prettier": {
+      "iconPath": "./icons/prettier.svg"
+    },
     "file_cs": {
       "iconPath": "./icons/cs.svg"
     },
@@ -338,7 +344,8 @@
     },
     "file_npm": {
       "iconPath": "./icons/npm.svg"
-    }
+    },
+    "file_vercel": {"iconPath": "./icons/vercel.svg"}
   },
   "file": "file_text",
   "folder": "folder",
@@ -368,6 +375,9 @@
     ".editorconfig": "file_editorconfig",
     ".yarnrc": "file_yarn",
     "yarn.lock": "file_yarn",
+    ".bunrc": "file_bun",
+    "bun.lock": "file_bun",
+    "bunfig.toml": "file_bun",
     "README": "file_markdown",
     ".dockerignore": "file_ignored",
     "Dockerfile": "file_docker",
@@ -393,6 +403,7 @@
     "Cargo.lock": "file_cargolock",
     "CMakeLists.txt": "file_cmake",
     "CMakeCache.txt": "file_config",
+    "pnpm.lock": "file_pnpm",
     "pnpm-lock.yaml": "file_pnpm",
     "pnpm-workspace.yaml": "file_pnpm",
     "tailwind.config.js": "file_tailwind",
@@ -414,13 +425,33 @@
     ".eslintrc.yml": "file_eslint",
     ".eslintrc.yaml": "file_eslint",
     ".eslintignore": "file_eslint",
+    ".prettierrc": "file_prettier",
+    ".prettierrc.js": "file_prettier",
+    ".prettierrc.ts": "file_prettier",
+    ".prettierrc.cjs": "file_prettier",
+    ".prettierrc.cts": "file_prettier",
+    ".prettierrc.json": "file_prettier",
+    ".prettierrc.json5": "file_prettier",
+    ".prettierrc.mjs": "file_prettier",
+    ".prettierrc.mts": "file_prettier",
+    ".prettierrc.toml": "file_prettier",
+    ".prettierrc.yaml": "file_prettier",
+    ".prettierrc.yml": "file_prettier",
+    "prettier.config.js": "file_prettier",
+    "prettier.config.ts": "file_prettier",
+    "prettier.config.cjs": "file_prettier",
+    "prettier.config.cts": "file_prettier",
+    "prettier.config.mjs": "file_prettier",
+    "prettier.config.mts": "file_prettier",
+    ".prettierignore": "file_prettier",
     ".nvmrc": "file_nodejs",
     ".node-version": "file_nodejs",
     ".npmrc": "file_npm",
     "go.mod": "file_gomod",
     "go.sum": "file_gosum",
     "go.work": "file_gowork",
-    "Directory.Build.props": "file_buildprops"
+    "Directory.Build.props": "file_buildprops",
+    "vercel.json": "file_vercel"
   },
   "fileExtensions": {
     "handlebars": "file_handlebars",
@@ -439,7 +470,7 @@
     "json5": "file_json",
     "html": "file_html",
     "jsx": "file_jsx",
-    "tsx": "file_react",
+    "tsx": "file_tsx",
     "rake": "file_rake",
     "rb": "file_ruby",
     "less": "file_less",
