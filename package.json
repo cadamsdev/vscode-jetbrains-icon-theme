@@ -69,7 +69,7 @@
   },
   "devDependencies": {
     "@actions/core": "^1.11.1",
-    "@lazy-release/cli": "^0.2.1",
+    "@lazy-release/cli": "^0.2.2",
     "@types/node": "^22.18.6",
     "@vscode/vsce": "^3.6.1",
     "svgson": "^5.3.1",
