@@ -10,6 +10,7 @@ node_modules/
 scripts/
 test/
 docs/
+apps/
 
 # Source assets (built versions in dist/ are used instead)
 assets/
