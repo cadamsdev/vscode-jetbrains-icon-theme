@@ -1,14 +1,5 @@
 {
   "iconDefinitions": {
-    "file_handlebars": {
-      "iconPath": "./icons/handlebarsJson.svg"
-    },
-    "file_text": {
-      "iconPath": "./icons/text.svg"
-    },
-    "file_kotlin": {
-      "iconPath": "./icons/kotlin.svg"
-    },
     "folder": {
       "iconPath": "./icons/folder.svg"
     },
@@ -29,6 +20,18 @@
     },
     "folder_migrate": {
       "iconPath": "./icons/folderMigrations.svg"
+    },
+    "folder_github": {
+      "iconPath": "./icons/folderGithub.svg"
+    },
+    "file_handlebars": {
+      "iconPath": "./icons/handlebarsJson.svg"
+    },
+    "file_text": {
+      "iconPath": "./icons/text.svg"
+    },
+    "file_kotlin": {
+      "iconPath": "./icons/kotlin.svg"
     },
     "file_ignored": {
       "iconPath": "./icons/ignored.svg"
@@ -350,19 +353,20 @@
   "file": "file_text",
   "folder": "folder",
   "folderNames": {
+    ".github": "folder_github",
     "vendor": "folder_vendor",
-    "test": "folder_test",
-    "tests": "folder_test",
     "controllers": "folder_controller",
     "mailers": "folder_mailers",
     "helpers": "folder_helper",
     "migrate": "folder_migrate",
+    "test": "folder_test",
+    "tests": "folder_test",
+    "spec": "folder_test",
+    "specs": "folder_test",
     "__test__": "folder_test",
     "__tests__": "folder_test",
     "__fixtures__": "folder_test",
-    "__snapshots__": "folder_test",
-    "spec": "folder_test",
-    "specs": "folder_test"
+    "__snapshots__": "folder_test"
   },
   "fileNames": {
     "dune": "file_dune",
