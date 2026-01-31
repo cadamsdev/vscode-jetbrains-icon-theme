@@ -1,3 +1,14 @@
+## [2.38.0](https://github.com/cadamsdev/vscode-jetbrains-icon-theme/compare/v2.37.0...v2.38.0) (2026-01-31)
+
+### 🚀 New Features
+- Add icons for spec js/ts files and .github folder ([#206](https://github.com/cadamsdev/vscode-jetbrains-icon-theme/pull/206))
+
+### 🐛 Bug Fixes
+- Washed-out dart file icons for 2023 version ([#202](https://github.com/cadamsdev/vscode-jetbrains-icon-theme/pull/202))
+- Remove website from bundle ([22cd220](https://github.com/cadamsdev/vscode-jetbrains-icon-theme/commit/22cd220))
+- Update vulnerable dependencies ([#203](https://github.com/cadamsdev/vscode-jetbrains-icon-theme/pull/203))
+
+
 ## [2.37.0](https://github.com/cadamsdev/vscode-jetbrains-icon-theme/compare/v2.36.0...v2.37.0) (2026-01-06)
 
 ### 🚀 New Features
