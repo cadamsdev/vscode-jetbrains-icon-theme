@@ -7,9 +7,15 @@
 
 Most icons are sourced from [JetBrains Design Resources](https://intellij-icons.jetbrains.design/).
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/cadamsdev)
-
 ---
+
+## ❤️ Sponsors
+
+Support development by becoming a sponsor! Your avatar or company logo will appear below.
+
+[Become a Sponsor](https://github.com/sponsors/cadamsdev)
+
+<!-- Sponsors will appear here -->
 
 ## Table of Contents
 
