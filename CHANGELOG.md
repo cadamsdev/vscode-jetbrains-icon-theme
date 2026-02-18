@@ -1,3 +1,9 @@
+## [2.39.0](https://github.com/cadamsdev/vscode-jetbrains-icon-theme/compare/v2.38.0...v2.39.0) (2026-02-18)
+
+### 🚀 New Features
+- Added icons for vlang ([#208](https://github.com/cadamsdev/vscode-jetbrains-icon-theme/pull/208))
+
+
 ## [2.38.0](https://github.com/cadamsdev/vscode-jetbrains-icon-theme/compare/v2.37.0...v2.38.0) (2026-01-31)
 
 ### 🚀 New Features
