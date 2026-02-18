@@ -342,6 +342,9 @@
     "file_c3Library": {
       "iconPath": "./icons/c3Library.svg"
     },
+    "file_vlang": {
+      "iconPath": "./icons/vlang.svg"
+    },
     "file_nodejs": {
       "iconPath": "./icons/nodejs.svg"
     },
@@ -600,6 +603,8 @@
     "c3": "file_c3",
     "c3t": "file_c3Test",
     "c3i": "file_c3Interface",
-    "c3l": "file_c3Library"
+    "c3l": "file_c3Library",
+    "v": "file_vlang",
+    "vsh": "file_vlang"
   }
 }
