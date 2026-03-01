@@ -1,3 +1,9 @@
+## [2.40.0](https://github.com/cadamsdev/vscode-jetbrains-icon-theme/compare/v2.39.0...v2.40.0) (2026-03-01)
+
+### 🚀 New Features
+- Add icons for root folder, kotlinscript, and fix oft typo ([#211](https://github.com/cadamsdev/vscode-jetbrains-icon-theme/pull/211))
+
+
 ## [2.39.0](https://github.com/cadamsdev/vscode-jetbrains-icon-theme/compare/v2.38.0...v2.39.0) (2026-02-18)
 
 ### 🚀 New Features
